@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_346be264e53445de8101afbf86973d4e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+             <h3 align="center" style="font-size:16px"><b>Ethiopia Map Showing Manuscripts Century of Location</b></h3>
+             
+    
+            <div class="folium-map" id="map_346be264e53445de8101afbf86973d4e" ></div>
+        
+</body>
+<script>    
+    
+            var map_346be264e53445de8101afbf86973d4e = L.map(
+                "map_346be264e53445de8101afbf86973d4e",
+                {
+                    center: [9.145, 40.4897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_087042e317ba431a8e5ed7e909c5c917 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 7, "maxZoom": 7, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+            var circle_marker_b49fc866db954b82a2729016520b90cb = L.circleMarker(
+                [8.86824, 38.79112],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_84a43c48c10340498a826f9de05c8be5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c4638d6f59641bd8f82d51821fb510c = $(`<div id="html_6c4638d6f59641bd8f82d51821fb510c" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_84a43c48c10340498a826f9de05c8be5.setContent(html_6c4638d6f59641bd8f82d51821fb510c);
+        
+
+        circle_marker_b49fc866db954b82a2729016520b90cb.bindPopup(popup_84a43c48c10340498a826f9de05c8be5)
+        ;
+
+        
+    
+    
+            circle_marker_b49fc866db954b82a2729016520b90cb.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_627599a646e243179a8b2cd4b3324e1c = L.circleMarker(
+                [8.86824, 38.79112],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_bbed96fd0a544fd19b77788f2bfc2366 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d00af05c09d6455fb650ae20f9a7ac0b = $(`<div id="html_d00af05c09d6455fb650ae20f9a7ac0b" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_bbed96fd0a544fd19b77788f2bfc2366.setContent(html_d00af05c09d6455fb650ae20f9a7ac0b);
+        
+
+        circle_marker_627599a646e243179a8b2cd4b3324e1c.bindPopup(popup_bbed96fd0a544fd19b77788f2bfc2366)
+        ;
+
+        
+    
+    
+            circle_marker_627599a646e243179a8b2cd4b3324e1c.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fd69bec227254a1fb97b9c62325e257b = L.circleMarker(
+                [8.9853, 38.71711],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_333b7eb7606b441399c2115ebb25c285 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_253a3ecaca98493d83aa4aab87e1557f = $(`<div id="html_253a3ecaca98493d83aa4aab87e1557f" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_333b7eb7606b441399c2115ebb25c285.setContent(html_253a3ecaca98493d83aa4aab87e1557f);
+        
+
+        circle_marker_fd69bec227254a1fb97b9c62325e257b.bindPopup(popup_333b7eb7606b441399c2115ebb25c285)
+        ;
+
+        
+    
+    
+            circle_marker_fd69bec227254a1fb97b9c62325e257b.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_28fbca956cf04295b47c265b87339043 = L.circleMarker(
+                [8.9853, 38.71711],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_d8666d948cc94bb09d704eeba4c81034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_038447c61d494eb99d511a6c3862f226 = $(`<div id="html_038447c61d494eb99d511a6c3862f226" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_d8666d948cc94bb09d704eeba4c81034.setContent(html_038447c61d494eb99d511a6c3862f226);
+        
+
+        circle_marker_28fbca956cf04295b47c265b87339043.bindPopup(popup_d8666d948cc94bb09d704eeba4c81034)
+        ;
+
+        
+    
+    
+            circle_marker_28fbca956cf04295b47c265b87339043.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7fd63d0380cf4ea89cd64e4fa0b596ce = L.circleMarker(
+                [8.9853, 38.71711],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_936948420efd497ba28a326c1f8d1c5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b42b21b93ed415982874ad664aea217 = $(`<div id="html_5b42b21b93ed415982874ad664aea217" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_936948420efd497ba28a326c1f8d1c5d.setContent(html_5b42b21b93ed415982874ad664aea217);
+        
+
+        circle_marker_7fd63d0380cf4ea89cd64e4fa0b596ce.bindPopup(popup_936948420efd497ba28a326c1f8d1c5d)
+        ;
+
+        
+    
+    
+            circle_marker_7fd63d0380cf4ea89cd64e4fa0b596ce.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3970e4be420413a8a7062e26a3f8db9 = L.circleMarker(
+                [8.9853, 38.71711],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_83040753916c4cf9a5e3393693b98b3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea6134009a1c44e18d6b4f7041b2b087 = $(`<div id="html_ea6134009a1c44e18d6b4f7041b2b087" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_83040753916c4cf9a5e3393693b98b3e.setContent(html_ea6134009a1c44e18d6b4f7041b2b087);
+        
+
+        circle_marker_f3970e4be420413a8a7062e26a3f8db9.bindPopup(popup_83040753916c4cf9a5e3393693b98b3e)
+        ;
+
+        
+    
+    
+            circle_marker_f3970e4be420413a8a7062e26a3f8db9.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_50c25ce406de4cc998d0cfc01ac85018 = L.circleMarker(
+                [8.9853, 38.71711],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_b9fe4dce96c1483da772481046c1fc52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d8fd63312394e0e8c632c49c5198b76 = $(`<div id="html_4d8fd63312394e0e8c632c49c5198b76" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_b9fe4dce96c1483da772481046c1fc52.setContent(html_4d8fd63312394e0e8c632c49c5198b76);
+        
+
+        circle_marker_50c25ce406de4cc998d0cfc01ac85018.bindPopup(popup_b9fe4dce96c1483da772481046c1fc52)
+        ;
+
+        
+    
+    
+            circle_marker_50c25ce406de4cc998d0cfc01ac85018.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4df85f251dc24ca3b4be920dc992d1c3 = L.circleMarker(
+                [9.00456, 38.75369],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_95702b5b64654d4dbbcff63de451df1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80500604ca6f4bdaaa09865a54117b21 = $(`<div id="html_80500604ca6f4bdaaa09865a54117b21" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_95702b5b64654d4dbbcff63de451df1d.setContent(html_80500604ca6f4bdaaa09865a54117b21);
+        
+
+        circle_marker_4df85f251dc24ca3b4be920dc992d1c3.bindPopup(popup_95702b5b64654d4dbbcff63de451df1d)
+        ;
+
+        
+    
+    
+            circle_marker_4df85f251dc24ca3b4be920dc992d1c3.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_482eb4df43f14c82a034cc38e33ad6cc = L.circleMarker(
+                [9.01039, 38.73706],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_ade3e3486a1842669bd5ac8b49ec2b5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51e9c2c7c64346ce88d1645559120b2c = $(`<div id="html_51e9c2c7c64346ce88d1645559120b2c" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_ade3e3486a1842669bd5ac8b49ec2b5b.setContent(html_51e9c2c7c64346ce88d1645559120b2c);
+        
+
+        circle_marker_482eb4df43f14c82a034cc38e33ad6cc.bindPopup(popup_ade3e3486a1842669bd5ac8b49ec2b5b)
+        ;
+
+        
+    
+    
+            circle_marker_482eb4df43f14c82a034cc38e33ad6cc.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_927def2dc8434bf6a4abce911c7176d1 = L.circleMarker(
+                [9.01059, 38.7756],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_4de96feaab4b46dd9e2d7c1c2d3e9410 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50c7d2cf3b5b460680e60e10f93c97ca = $(`<div id="html_50c7d2cf3b5b460680e60e10f93c97ca" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_4de96feaab4b46dd9e2d7c1c2d3e9410.setContent(html_50c7d2cf3b5b460680e60e10f93c97ca);
+        
+
+        circle_marker_927def2dc8434bf6a4abce911c7176d1.bindPopup(popup_4de96feaab4b46dd9e2d7c1c2d3e9410)
+        ;
+
+        
+    
+    
+            circle_marker_927def2dc8434bf6a4abce911c7176d1.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2c822cfb948048b9a822039e71f84d01 = L.circleMarker(
+                [9.01059, 38.7756],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_55c81893017a4a9ab74d206f9097d232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_778a32f802db433dac3c1b8c5fc30e1f = $(`<div id="html_778a32f802db433dac3c1b8c5fc30e1f" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_55c81893017a4a9ab74d206f9097d232.setContent(html_778a32f802db433dac3c1b8c5fc30e1f);
+        
+
+        circle_marker_2c822cfb948048b9a822039e71f84d01.bindPopup(popup_55c81893017a4a9ab74d206f9097d232)
+        ;
+
+        
+    
+    
+            circle_marker_2c822cfb948048b9a822039e71f84d01.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3dd97821c8dd4e398c5901e394b12eb9 = L.circleMarker(
+                [9.02862, 38.70371],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_8572b2271db84761acd66a184b9b3559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89f96015ceae48f4b89c2c176f228bac = $(`<div id="html_89f96015ceae48f4b89c2c176f228bac" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_8572b2271db84761acd66a184b9b3559.setContent(html_89f96015ceae48f4b89c2c176f228bac);
+        
+
+        circle_marker_3dd97821c8dd4e398c5901e394b12eb9.bindPopup(popup_8572b2271db84761acd66a184b9b3559)
+        ;
+
+        
+    
+    
+            circle_marker_3dd97821c8dd4e398c5901e394b12eb9.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aa4fe812e37648b29b6ebf41227e2903 = L.circleMarker(
+                [9.03679, 38.76187],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_5df3c156ac2147fe89e166812e2ce95b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ea0c13c290446ff978e8c2b8202f5a6 = $(`<div id="html_4ea0c13c290446ff978e8c2b8202f5a6" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_5df3c156ac2147fe89e166812e2ce95b.setContent(html_4ea0c13c290446ff978e8c2b8202f5a6);
+        
+
+        circle_marker_aa4fe812e37648b29b6ebf41227e2903.bindPopup(popup_5df3c156ac2147fe89e166812e2ce95b)
+        ;
+
+        
+    
+    
+            circle_marker_aa4fe812e37648b29b6ebf41227e2903.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6d9891ac3b7a44229858b036531153fd = L.circleMarker(
+                [9.04673, 38.758],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_25067996f9da4f9888b3222502218e89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e99b57e8c84af4ad63cc89114e7b80 = $(`<div id="html_93e99b57e8c84af4ad63cc89114e7b80" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_25067996f9da4f9888b3222502218e89.setContent(html_93e99b57e8c84af4ad63cc89114e7b80);
+        
+
+        circle_marker_6d9891ac3b7a44229858b036531153fd.bindPopup(popup_25067996f9da4f9888b3222502218e89)
+        ;
+
+        
+    
+    
+            circle_marker_6d9891ac3b7a44229858b036531153fd.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2ced4c6f3ab1480b8700430a52df7626 = L.circleMarker(
+                [9.04673, 38.758],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_495d9f06a84d4d45a7c8b71644e96707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_589d1bca8bb34cd498e4ca28cd75b6f7 = $(`<div id="html_589d1bca8bb34cd498e4ca28cd75b6f7" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_495d9f06a84d4d45a7c8b71644e96707.setContent(html_589d1bca8bb34cd498e4ca28cd75b6f7);
+        
+
+        circle_marker_2ced4c6f3ab1480b8700430a52df7626.bindPopup(popup_495d9f06a84d4d45a7c8b71644e96707)
+        ;
+
+        
+    
+    
+            circle_marker_2ced4c6f3ab1480b8700430a52df7626.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d524985a63d41edaada773895673d6f = L.circleMarker(
+                [9.04673, 38.758],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_0baba376d7bc46c3a5ea99fa1c04dc89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b2cb44c53c04382b5f161eab6da636b = $(`<div id="html_0b2cb44c53c04382b5f161eab6da636b" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_0baba376d7bc46c3a5ea99fa1c04dc89.setContent(html_0b2cb44c53c04382b5f161eab6da636b);
+        
+
+        circle_marker_7d524985a63d41edaada773895673d6f.bindPopup(popup_0baba376d7bc46c3a5ea99fa1c04dc89)
+        ;
+
+        
+    
+    
+            circle_marker_7d524985a63d41edaada773895673d6f.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_982ef35cc60a4d938b9d346c02deaa52 = L.circleMarker(
+                [9.05327, 38.72335],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_d570db7846d44a3b9d52920e96200232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_931ff61573b54f07933e94cd829e62c0 = $(`<div id="html_931ff61573b54f07933e94cd829e62c0" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_d570db7846d44a3b9d52920e96200232.setContent(html_931ff61573b54f07933e94cd829e62c0);
+        
+
+        circle_marker_982ef35cc60a4d938b9d346c02deaa52.bindPopup(popup_d570db7846d44a3b9d52920e96200232)
+        ;
+
+        
+    
+    
+            circle_marker_982ef35cc60a4d938b9d346c02deaa52.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_545829b2ccc245c68aefa11e74ca9519 = L.circleMarker(
+                [9.05344, 38.71515],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_b35e3fc6c8a540848d64a4b7a6f3740d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4e9ea41e846498384549bad54ae66ad = $(`<div id="html_a4e9ea41e846498384549bad54ae66ad" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_b35e3fc6c8a540848d64a4b7a6f3740d.setContent(html_a4e9ea41e846498384549bad54ae66ad);
+        
+
+        circle_marker_545829b2ccc245c68aefa11e74ca9519.bindPopup(popup_b35e3fc6c8a540848d64a4b7a6f3740d)
+        ;
+
+        
+    
+    
+            circle_marker_545829b2ccc245c68aefa11e74ca9519.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1322af7a90f5409ba01ef12fa2d6e0fb = L.circleMarker(
+                [9.05789, 38.72761],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_ebb2c0cead9e4165979c8ce9973e4450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f48317779ef84cf1b15b65c82bc2a0c2 = $(`<div id="html_f48317779ef84cf1b15b65c82bc2a0c2" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_ebb2c0cead9e4165979c8ce9973e4450.setContent(html_f48317779ef84cf1b15b65c82bc2a0c2);
+        
+
+        circle_marker_1322af7a90f5409ba01ef12fa2d6e0fb.bindPopup(popup_ebb2c0cead9e4165979c8ce9973e4450)
+        ;
+
+        
+    
+    
+            circle_marker_1322af7a90f5409ba01ef12fa2d6e0fb.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5126d6ced8b845d4b91729af5ad1187a = L.circleMarker(
+                [9.06476, 38.772],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_33cf396d17a5457e8d9f76d0947fc6c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63a7a7f7bb35437a91161613906286c0 = $(`<div id="html_63a7a7f7bb35437a91161613906286c0" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_33cf396d17a5457e8d9f76d0947fc6c9.setContent(html_63a7a7f7bb35437a91161613906286c0);
+        
+
+        circle_marker_5126d6ced8b845d4b91729af5ad1187a.bindPopup(popup_33cf396d17a5457e8d9f76d0947fc6c9)
+        ;
+
+        
+    
+    
+            circle_marker_5126d6ced8b845d4b91729af5ad1187a.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_554f628d220e4b959c7cb412e708ef93 = L.circleMarker(
+                [9.06476, 38.772],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_7be9fb196ee54aa99100fad893ca99b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc4cd51bd46543f592f21d039b40216b = $(`<div id="html_cc4cd51bd46543f592f21d039b40216b" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_7be9fb196ee54aa99100fad893ca99b7.setContent(html_cc4cd51bd46543f592f21d039b40216b);
+        
+
+        circle_marker_554f628d220e4b959c7cb412e708ef93.bindPopup(popup_7be9fb196ee54aa99100fad893ca99b7)
+        ;
+
+        
+    
+    
+            circle_marker_554f628d220e4b959c7cb412e708ef93.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4bb38da91d904c56956fc4b40bab04d3 = L.circleMarker(
+                [9.11658, 38.77222],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_dbf6af0211cd43899862ae925cdde27e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d13a4ec17f4c4ffe9b54b4c8c00ffd8c = $(`<div id="html_d13a4ec17f4c4ffe9b54b4c8c00ffd8c" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_dbf6af0211cd43899862ae925cdde27e.setContent(html_d13a4ec17f4c4ffe9b54b4c8c00ffd8c);
+        
+
+        circle_marker_4bb38da91d904c56956fc4b40bab04d3.bindPopup(popup_dbf6af0211cd43899862ae925cdde27e)
+        ;
+
+        
+    
+    
+            circle_marker_4bb38da91d904c56956fc4b40bab04d3.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1be1f660a0204285a7b859e082d0a964 = L.circleMarker(
+                [9.11658, 38.77222],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_5f3182196e8e44d987e0be409e39e670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22636cb44d854ff79896bfbf5bf05dc4 = $(`<div id="html_22636cb44d854ff79896bfbf5bf05dc4" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_5f3182196e8e44d987e0be409e39e670.setContent(html_22636cb44d854ff79896bfbf5bf05dc4);
+        
+
+        circle_marker_1be1f660a0204285a7b859e082d0a964.bindPopup(popup_5f3182196e8e44d987e0be409e39e670)
+        ;
+
+        
+    
+    
+            circle_marker_1be1f660a0204285a7b859e082d0a964.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_81b555361ef04ea0ac7519cb07cb22ed = L.circleMarker(
+                [9.54882, 39.69241],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_4fd31a5d0518473c954be3bb2a387378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bc4ae54d4eb4bec99b707f7c266b328 = $(`<div id="html_2bc4ae54d4eb4bec99b707f7c266b328" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_4fd31a5d0518473c954be3bb2a387378.setContent(html_2bc4ae54d4eb4bec99b707f7c266b328);
+        
+
+        circle_marker_81b555361ef04ea0ac7519cb07cb22ed.bindPopup(popup_4fd31a5d0518473c954be3bb2a387378)
+        ;
+
+        
+    
+    
+            circle_marker_81b555361ef04ea0ac7519cb07cb22ed.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d72c79e8fe74435d95b1d026b2e26c58 = L.circleMarker(
+                [9.58969, 39.73325],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_35bbb3ca9e06485baa9a84a5ddfbea64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7410176c8ca4710ad25b3f71884f91b = $(`<div id="html_b7410176c8ca4710ad25b3f71884f91b" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_35bbb3ca9e06485baa9a84a5ddfbea64.setContent(html_b7410176c8ca4710ad25b3f71884f91b);
+        
+
+        circle_marker_d72c79e8fe74435d95b1d026b2e26c58.bindPopup(popup_35bbb3ca9e06485baa9a84a5ddfbea64)
+        ;
+
+        
+    
+    
+            circle_marker_d72c79e8fe74435d95b1d026b2e26c58.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_712bc12d34ee423b8b0e79fe09c8ddd8 = L.circleMarker(
+                [9.58969, 39.73325],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_6884f199ca5e42ffaa0c9f9d7c2d1cce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d382e3abb974563bcb090be8b271d90 = $(`<div id="html_1d382e3abb974563bcb090be8b271d90" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_6884f199ca5e42ffaa0c9f9d7c2d1cce.setContent(html_1d382e3abb974563bcb090be8b271d90);
+        
+
+        circle_marker_712bc12d34ee423b8b0e79fe09c8ddd8.bindPopup(popup_6884f199ca5e42ffaa0c9f9d7c2d1cce)
+        ;
+
+        
+    
+    
+            circle_marker_712bc12d34ee423b8b0e79fe09c8ddd8.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_23b32f28430d4259b35e27e2357c867e = L.circleMarker(
+                [9.59499, 39.7346],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_e6aa6bc561e34c8bb8589e9d383c508a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a01ad3e3f4146288da10072ac25dfcd = $(`<div id="html_2a01ad3e3f4146288da10072ac25dfcd" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_e6aa6bc561e34c8bb8589e9d383c508a.setContent(html_2a01ad3e3f4146288da10072ac25dfcd);
+        
+
+        circle_marker_23b32f28430d4259b35e27e2357c867e.bindPopup(popup_e6aa6bc561e34c8bb8589e9d383c508a)
+        ;
+
+        
+    
+    
+            circle_marker_23b32f28430d4259b35e27e2357c867e.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67fe6cfd07e346c49853e4cd005f868e = L.circleMarker(
+                [9.59524, 39.73461],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_c9bf78bb9f6c41769858181812e726e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_064469b8cdfc4609b2e460ab803a9b3d = $(`<div id="html_064469b8cdfc4609b2e460ab803a9b3d" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_c9bf78bb9f6c41769858181812e726e6.setContent(html_064469b8cdfc4609b2e460ab803a9b3d);
+        
+
+        circle_marker_67fe6cfd07e346c49853e4cd005f868e.bindPopup(popup_c9bf78bb9f6c41769858181812e726e6)
+        ;
+
+        
+    
+    
+            circle_marker_67fe6cfd07e346c49853e4cd005f868e.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_190192f0290644b6ae46e81b6b3b9605 = L.circleMarker(
+                [9.59524, 39.73461],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_11b47b8fe97948609f83b6c5ebe0185a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dce006febb14471a90ab8b122fbf7102 = $(`<div id="html_dce006febb14471a90ab8b122fbf7102" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_11b47b8fe97948609f83b6c5ebe0185a.setContent(html_dce006febb14471a90ab8b122fbf7102);
+        
+
+        circle_marker_190192f0290644b6ae46e81b6b3b9605.bindPopup(popup_11b47b8fe97948609f83b6c5ebe0185a)
+        ;
+
+        
+    
+    
+            circle_marker_190192f0290644b6ae46e81b6b3b9605.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_377cd918fd4c4384b7ed7d5d0db071fa = L.circleMarker(
+                [9.60072, 39.73582],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_cfe1bf6a8e65468b8e9b1cb0db6c3f2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b682e39fb7d647c98b132c780bb0cd66 = $(`<div id="html_b682e39fb7d647c98b132c780bb0cd66" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_cfe1bf6a8e65468b8e9b1cb0db6c3f2d.setContent(html_b682e39fb7d647c98b132c780bb0cd66);
+        
+
+        circle_marker_377cd918fd4c4384b7ed7d5d0db071fa.bindPopup(popup_cfe1bf6a8e65468b8e9b1cb0db6c3f2d)
+        ;
+
+        
+    
+    
+            circle_marker_377cd918fd4c4384b7ed7d5d0db071fa.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1838788d48b246aba660e7be954b721d = L.circleMarker(
+                [9.60072, 39.73582],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_1e0385414806412997615e671e7fa346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1947244146a44e0291e0cde85fae13c2 = $(`<div id="html_1947244146a44e0291e0cde85fae13c2" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_1e0385414806412997615e671e7fa346.setContent(html_1947244146a44e0291e0cde85fae13c2);
+        
+
+        circle_marker_1838788d48b246aba660e7be954b721d.bindPopup(popup_1e0385414806412997615e671e7fa346)
+        ;
+
+        
+    
+    
+            circle_marker_1838788d48b246aba660e7be954b721d.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e88d94c7293b429982cedbf580d49062 = L.circleMarker(
+                [9.65117, 39.51701],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_f9877e9eb7c34ac68348599717b2db16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_804a6797b55549ca9b4d0c307f0322b3 = $(`<div id="html_804a6797b55549ca9b4d0c307f0322b3" style="width: 100.0%; height: 100.0%;">15th Century</div>`)[0];
+            popup_f9877e9eb7c34ac68348599717b2db16.setContent(html_804a6797b55549ca9b4d0c307f0322b3);
+        
+
+        circle_marker_e88d94c7293b429982cedbf580d49062.bindPopup(popup_f9877e9eb7c34ac68348599717b2db16)
+        ;
+
+        
+    
+    
+            circle_marker_e88d94c7293b429982cedbf580d49062.bindTooltip(
+                `<div>
+                     15th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_27d12156a90647edb3ea085a14ea7900 = L.circleMarker(
+                [9.69204, 39.83159],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_8b42151eb7fb45a4b72f6385dd1e8d79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_497362135bc4423a8afbab052be618e0 = $(`<div id="html_497362135bc4423a8afbab052be618e0" style="width: 100.0%; height: 100.0%;">15th Century</div>`)[0];
+            popup_8b42151eb7fb45a4b72f6385dd1e8d79.setContent(html_497362135bc4423a8afbab052be618e0);
+        
+
+        circle_marker_27d12156a90647edb3ea085a14ea7900.bindPopup(popup_8b42151eb7fb45a4b72f6385dd1e8d79)
+        ;
+
+        
+    
+    
+            circle_marker_27d12156a90647edb3ea085a14ea7900.bindTooltip(
+                `<div>
+                     15th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0598f1289c344a81afa169a29f5cb125 = L.circleMarker(
+                [9.73542, 39.78255],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_11f6b1904d4b43ab907dfb6a820afba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83658d40d0ac47f3a587cdc0192ae0b0 = $(`<div id="html_83658d40d0ac47f3a587cdc0192ae0b0" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_11f6b1904d4b43ab907dfb6a820afba5.setContent(html_83658d40d0ac47f3a587cdc0192ae0b0);
+        
+
+        circle_marker_0598f1289c344a81afa169a29f5cb125.bindPopup(popup_11f6b1904d4b43ab907dfb6a820afba5)
+        ;
+
+        
+    
+    
+            circle_marker_0598f1289c344a81afa169a29f5cb125.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_217f5ef55a184881b66d19ee7d3e9ca2 = L.circleMarker(
+                [10.00071, 39.26194],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_f1131a854df649089ae566651ad45b47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ea0660025c84e8fb6847b7932fe8767 = $(`<div id="html_7ea0660025c84e8fb6847b7932fe8767" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_f1131a854df649089ae566651ad45b47.setContent(html_7ea0660025c84e8fb6847b7932fe8767);
+        
+
+        circle_marker_217f5ef55a184881b66d19ee7d3e9ca2.bindPopup(popup_f1131a854df649089ae566651ad45b47)
+        ;
+
+        
+    
+    
+            circle_marker_217f5ef55a184881b66d19ee7d3e9ca2.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ed66f78fa3ce4d078f6200db50615501 = L.circleMarker(
+                [10.33026, 37.72578],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_d4a5249fafb64333a8d1e3bf4c9da443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28418831e8b64990aa2e39c75d06908d = $(`<div id="html_28418831e8b64990aa2e39c75d06908d" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_d4a5249fafb64333a8d1e3bf4c9da443.setContent(html_28418831e8b64990aa2e39c75d06908d);
+        
+
+        circle_marker_ed66f78fa3ce4d078f6200db50615501.bindPopup(popup_d4a5249fafb64333a8d1e3bf4c9da443)
+        ;
+
+        
+    
+    
+            circle_marker_ed66f78fa3ce4d078f6200db50615501.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be08ad14bc55409997c7c34e32f75b93 = L.circleMarker(
+                [10.86303, 38.27596],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_a1bd8e9090e7407483cb74adedee446f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d60d4fa300364368831582bab3d2c74a = $(`<div id="html_d60d4fa300364368831582bab3d2c74a" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_a1bd8e9090e7407483cb74adedee446f.setContent(html_d60d4fa300364368831582bab3d2c74a);
+        
+
+        circle_marker_be08ad14bc55409997c7c34e32f75b93.bindPopup(popup_a1bd8e9090e7407483cb74adedee446f)
+        ;
+
+        
+    
+    
+            circle_marker_be08ad14bc55409997c7c34e32f75b93.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7acc96463cb4c61a603a8401b0f30dc = L.circleMarker(
+                [10.97215, 37.97223],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_95993532f8a045378f40e7bb82347056 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fea3db3518345db93e12a2d26ac1040 = $(`<div id="html_1fea3db3518345db93e12a2d26ac1040" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_95993532f8a045378f40e7bb82347056.setContent(html_1fea3db3518345db93e12a2d26ac1040);
+        
+
+        circle_marker_b7acc96463cb4c61a603a8401b0f30dc.bindPopup(popup_95993532f8a045378f40e7bb82347056)
+        ;
+
+        
+    
+    
+            circle_marker_b7acc96463cb4c61a603a8401b0f30dc.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f367e78eb794232beaed019cee853ac = L.circleMarker(
+                [11.31343, 39.67698],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_300998106e754c1ca426ab997638e232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ad4f73a2e0642b0ae9d06191d0dd6ed = $(`<div id="html_9ad4f73a2e0642b0ae9d06191d0dd6ed" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_300998106e754c1ca426ab997638e232.setContent(html_9ad4f73a2e0642b0ae9d06191d0dd6ed);
+        
+
+        circle_marker_3f367e78eb794232beaed019cee853ac.bindPopup(popup_300998106e754c1ca426ab997638e232)
+        ;
+
+        
+    
+    
+            circle_marker_3f367e78eb794232beaed019cee853ac.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_91025b1abe9d41d3b5a60d2f0f208acf = L.circleMarker(
+                [11.31343, 39.67698],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_0637131cc77b49909d9ee9c5b9c07fbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eba5dab6ce89466ca9fc106b8db4c117 = $(`<div id="html_eba5dab6ce89466ca9fc106b8db4c117" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_0637131cc77b49909d9ee9c5b9c07fbe.setContent(html_eba5dab6ce89466ca9fc106b8db4c117);
+        
+
+        circle_marker_91025b1abe9d41d3b5a60d2f0f208acf.bindPopup(popup_0637131cc77b49909d9ee9c5b9c07fbe)
+        ;
+
+        
+    
+    
+            circle_marker_91025b1abe9d41d3b5a60d2f0f208acf.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1025b600da5e4af88613a863a3e7bc3f = L.circleMarker(
+                [11.3388, 39.69743],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_fea9142dfd98478cb0456d164267ae2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7846cebc72184828abd5958015cbc968 = $(`<div id="html_7846cebc72184828abd5958015cbc968" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_fea9142dfd98478cb0456d164267ae2c.setContent(html_7846cebc72184828abd5958015cbc968);
+        
+
+        circle_marker_1025b600da5e4af88613a863a3e7bc3f.bindPopup(popup_fea9142dfd98478cb0456d164267ae2c)
+        ;
+
+        
+    
+    
+            circle_marker_1025b600da5e4af88613a863a3e7bc3f.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8fdb0fef668a475da373fb91941a64bb = L.circleMarker(
+                [11.3388, 39.69743],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_dbb295c410a2419ba7c375b5f4f1e9dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aff5b89797294044a16b93dd16c1948d = $(`<div id="html_aff5b89797294044a16b93dd16c1948d" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_dbb295c410a2419ba7c375b5f4f1e9dd.setContent(html_aff5b89797294044a16b93dd16c1948d);
+        
+
+        circle_marker_8fdb0fef668a475da373fb91941a64bb.bindPopup(popup_dbb295c410a2419ba7c375b5f4f1e9dd)
+        ;
+
+        
+    
+    
+            circle_marker_8fdb0fef668a475da373fb91941a64bb.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_41d926664a1e47b1bfc105c1352508dc = L.circleMarker(
+                [11.3388, 39.69743],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_5427a0444fc24ac5840ee77b1c1f011e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31cd3e1608084d208ce38037024ea85b = $(`<div id="html_31cd3e1608084d208ce38037024ea85b" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_5427a0444fc24ac5840ee77b1c1f011e.setContent(html_31cd3e1608084d208ce38037024ea85b);
+        
+
+        circle_marker_41d926664a1e47b1bfc105c1352508dc.bindPopup(popup_5427a0444fc24ac5840ee77b1c1f011e)
+        ;
+
+        
+    
+    
+            circle_marker_41d926664a1e47b1bfc105c1352508dc.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_71995f25f5ec42729a9e9ed087322908 = L.circleMarker(
+                [11.3388, 39.69743],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_c1c5fb265cd84a9982813c949eebd390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ae260af71e64863bfbe7109767340fd = $(`<div id="html_4ae260af71e64863bfbe7109767340fd" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_c1c5fb265cd84a9982813c949eebd390.setContent(html_4ae260af71e64863bfbe7109767340fd);
+        
+
+        circle_marker_71995f25f5ec42729a9e9ed087322908.bindPopup(popup_c1c5fb265cd84a9982813c949eebd390)
+        ;
+
+        
+    
+    
+            circle_marker_71995f25f5ec42729a9e9ed087322908.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26f7c68ace3f4b5b922eb802c56ce3d1 = L.circleMarker(
+                [11.52036, 39.35964],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_c2d48c3f273f4e689d873b775197d07f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_015260459cd34f75b127a0431dc23bb4 = $(`<div id="html_015260459cd34f75b127a0431dc23bb4" style="width: 100.0%; height: 100.0%;">14th Century</div>`)[0];
+            popup_c2d48c3f273f4e689d873b775197d07f.setContent(html_015260459cd34f75b127a0431dc23bb4);
+        
+
+        circle_marker_26f7c68ace3f4b5b922eb802c56ce3d1.bindPopup(popup_c2d48c3f273f4e689d873b775197d07f)
+        ;
+
+        
+    
+    
+            circle_marker_26f7c68ace3f4b5b922eb802c56ce3d1.bindTooltip(
+                `<div>
+                     14th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e28e2634dd34d19a4a9bbb766556c06 = L.circleMarker(
+                [11.66667, 39.75],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_dce7344aa1f645e8840960a89484901a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f47fd9cdae04f34b6c498d51760b4bf = $(`<div id="html_4f47fd9cdae04f34b6c498d51760b4bf" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_dce7344aa1f645e8840960a89484901a.setContent(html_4f47fd9cdae04f34b6c498d51760b4bf);
+        
+
+        circle_marker_2e28e2634dd34d19a4a9bbb766556c06.bindPopup(popup_dce7344aa1f645e8840960a89484901a)
+        ;
+
+        
+    
+    
+            circle_marker_2e28e2634dd34d19a4a9bbb766556c06.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e11c11ecc59f4feaab23f47aa97748bd = L.circleMarker(
+                [11.66667, 39.75],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_845968b6267f430c8d30b0ae08d0f592 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fbd0fb65bf34e7a881b99b4ce467bbe = $(`<div id="html_4fbd0fb65bf34e7a881b99b4ce467bbe" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_845968b6267f430c8d30b0ae08d0f592.setContent(html_4fbd0fb65bf34e7a881b99b4ce467bbe);
+        
+
+        circle_marker_e11c11ecc59f4feaab23f47aa97748bd.bindPopup(popup_845968b6267f430c8d30b0ae08d0f592)
+        ;
+
+        
+    
+    
+            circle_marker_e11c11ecc59f4feaab23f47aa97748bd.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b2d5487d5bf4d458e5c62aed7e74f5b = L.circleMarker(
+                [11.78794, 39.59867],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_5383e067b2854418b49716a3137e4141 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c348b5e1c9814dda866bdc7ecfb85940 = $(`<div id="html_c348b5e1c9814dda866bdc7ecfb85940" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_5383e067b2854418b49716a3137e4141.setContent(html_c348b5e1c9814dda866bdc7ecfb85940);
+        
+
+        circle_marker_7b2d5487d5bf4d458e5c62aed7e74f5b.bindPopup(popup_5383e067b2854418b49716a3137e4141)
+        ;
+
+        
+    
+    
+            circle_marker_7b2d5487d5bf4d458e5c62aed7e74f5b.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a68fffc4a1e4220b30876872617a5ed = L.circleMarker(
+                [11.83097, 39.60086],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_065d84cdc44842abb7e05228d3f647a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a79296a20e344c0eb7638caa20890855 = $(`<div id="html_a79296a20e344c0eb7638caa20890855" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_065d84cdc44842abb7e05228d3f647a3.setContent(html_a79296a20e344c0eb7638caa20890855);
+        
+
+        circle_marker_7a68fffc4a1e4220b30876872617a5ed.bindPopup(popup_065d84cdc44842abb7e05228d3f647a3)
+        ;
+
+        
+    
+    
+            circle_marker_7a68fffc4a1e4220b30876872617a5ed.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_286f67998ae04457be975d22ac1f7806 = L.circleMarker(
+                [11.99954, 39.33426],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_4638aadb02ea4207b94169de6247fc2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9df9f66336b4ea08fd8d383a713a3ab = $(`<div id="html_c9df9f66336b4ea08fd8d383a713a3ab" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_4638aadb02ea4207b94169de6247fc2c.setContent(html_c9df9f66336b4ea08fd8d383a713a3ab);
+        
+
+        circle_marker_286f67998ae04457be975d22ac1f7806.bindPopup(popup_4638aadb02ea4207b94169de6247fc2c)
+        ;
+
+        
+    
+    
+            circle_marker_286f67998ae04457be975d22ac1f7806.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67344b374f5e4cb3a120fef16d993557 = L.circleMarker(
+                [12.00667, 39.55528],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_7538c278a30344d89a236e099b74e44b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed55160c919940febaeb7b0433beabd1 = $(`<div id="html_ed55160c919940febaeb7b0433beabd1" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_7538c278a30344d89a236e099b74e44b.setContent(html_ed55160c919940febaeb7b0433beabd1);
+        
+
+        circle_marker_67344b374f5e4cb3a120fef16d993557.bindPopup(popup_7538c278a30344d89a236e099b74e44b)
+        ;
+
+        
+    
+    
+            circle_marker_67344b374f5e4cb3a120fef16d993557.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cf5df92d1605441db53969431dfcab2d = L.circleMarker(
+                [12.03133, 39.04521],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_81e45c2f640b418f948c46be8e46e947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3b40fcf116e4d28a5ebc8e3e6972d2c = $(`<div id="html_f3b40fcf116e4d28a5ebc8e3e6972d2c" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_81e45c2f640b418f948c46be8e46e947.setContent(html_f3b40fcf116e4d28a5ebc8e3e6972d2c);
+        
+
+        circle_marker_cf5df92d1605441db53969431dfcab2d.bindPopup(popup_81e45c2f640b418f948c46be8e46e947)
+        ;
+
+        
+    
+    
+            circle_marker_cf5df92d1605441db53969431dfcab2d.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ab79154727e4c6c95fb073a3c922e69 = L.circleMarker(
+                [12.03173, 39.04561],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_f4c3a080a5fa4448b526c99489775923 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae413a8f51c34a228f1678a70b92ae7e = $(`<div id="html_ae413a8f51c34a228f1678a70b92ae7e" style="width: 100.0%; height: 100.0%;">15th Century</div>`)[0];
+            popup_f4c3a080a5fa4448b526c99489775923.setContent(html_ae413a8f51c34a228f1678a70b92ae7e);
+        
+
+        circle_marker_1ab79154727e4c6c95fb073a3c922e69.bindPopup(popup_f4c3a080a5fa4448b526c99489775923)
+        ;
+
+        
+    
+    
+            circle_marker_1ab79154727e4c6c95fb073a3c922e69.bindTooltip(
+                `<div>
+                     15th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19041abb2c9943a48dd0f92365925df5 = L.circleMarker(
+                [12.37609, 37.36026],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_9934422b33844b0bbc229b9cff40558b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca138ad803304d3aa79ad4f9dd3b7e70 = $(`<div id="html_ca138ad803304d3aa79ad4f9dd3b7e70" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_9934422b33844b0bbc229b9cff40558b.setContent(html_ca138ad803304d3aa79ad4f9dd3b7e70);
+        
+
+        circle_marker_19041abb2c9943a48dd0f92365925df5.bindPopup(popup_9934422b33844b0bbc229b9cff40558b)
+        ;
+
+        
+    
+    
+            circle_marker_19041abb2c9943a48dd0f92365925df5.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b12bed202cf4017b8a786a377e6badb = L.circleMarker(
+                [12.6086, 37.4676],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_1beef0d6bd6b45b9ba2762494aacfd96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_601278555aba4be18e2ae7d3091cbb53 = $(`<div id="html_601278555aba4be18e2ae7d3091cbb53" style="width: 100.0%; height: 100.0%;">15th Century</div>`)[0];
+            popup_1beef0d6bd6b45b9ba2762494aacfd96.setContent(html_601278555aba4be18e2ae7d3091cbb53);
+        
+
+        circle_marker_9b12bed202cf4017b8a786a377e6badb.bindPopup(popup_1beef0d6bd6b45b9ba2762494aacfd96)
+        ;
+
+        
+    
+    
+            circle_marker_9b12bed202cf4017b8a786a377e6badb.bindTooltip(
+                `<div>
+                     15th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a6bd3f1fcea4a25b4c30e4724dda809 = L.circleMarker(
+                [12.6086, 37.4676],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_a26e7266eb0145d48c7b1fd3b548b96e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e437884e4ae492e879e48592ebb8a1c = $(`<div id="html_3e437884e4ae492e879e48592ebb8a1c" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_a26e7266eb0145d48c7b1fd3b548b96e.setContent(html_3e437884e4ae492e879e48592ebb8a1c);
+        
+
+        circle_marker_7a6bd3f1fcea4a25b4c30e4724dda809.bindPopup(popup_a26e7266eb0145d48c7b1fd3b548b96e)
+        ;
+
+        
+    
+    
+            circle_marker_7a6bd3f1fcea4a25b4c30e4724dda809.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a17e2f38037a48679ff05dc88a9e0898 = L.circleMarker(
+                [12.6086, 37.4676],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_73328566dc854ab490b581ec25af02f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b00854a214446b7850e2cee0fe2b5b7 = $(`<div id="html_9b00854a214446b7850e2cee0fe2b5b7" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_73328566dc854ab490b581ec25af02f1.setContent(html_9b00854a214446b7850e2cee0fe2b5b7);
+        
+
+        circle_marker_a17e2f38037a48679ff05dc88a9e0898.bindPopup(popup_73328566dc854ab490b581ec25af02f1)
+        ;
+
+        
+    
+    
+            circle_marker_a17e2f38037a48679ff05dc88a9e0898.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7de710637eae4cb78db867fd3365c3b7 = L.circleMarker(
+                [12.6086, 37.4676],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_8cdc3c425c4446a38993fc7d299497d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9647dbfa879e4ea79c51d4402b1e08e1 = $(`<div id="html_9647dbfa879e4ea79c51d4402b1e08e1" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_8cdc3c425c4446a38993fc7d299497d3.setContent(html_9647dbfa879e4ea79c51d4402b1e08e1);
+        
+
+        circle_marker_7de710637eae4cb78db867fd3365c3b7.bindPopup(popup_8cdc3c425c4446a38993fc7d299497d3)
+        ;
+
+        
+    
+    
+            circle_marker_7de710637eae4cb78db867fd3365c3b7.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3461e14054734d87a000828e7f0d6d7e = L.circleMarker(
+                [13.66357, 39.17335],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_def3eedcdd8c4ac482b62934ca6aaab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a2a4fbb637a4c97b2dc05b07eaba2fa = $(`<div id="html_6a2a4fbb637a4c97b2dc05b07eaba2fa" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_def3eedcdd8c4ac482b62934ca6aaab1.setContent(html_6a2a4fbb637a4c97b2dc05b07eaba2fa);
+        
+
+        circle_marker_3461e14054734d87a000828e7f0d6d7e.bindPopup(popup_def3eedcdd8c4ac482b62934ca6aaab1)
+        ;
+
+        
+    
+    
+            circle_marker_3461e14054734d87a000828e7f0d6d7e.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4354e1a5312643508161f8539fafd729 = L.circleMarker(
+                [13.9773, 39.60775],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_1331714afaa4412e8f423079a9a87f40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53650541864e414f92a97dedcec8da36 = $(`<div id="html_53650541864e414f92a97dedcec8da36" style="width: 100.0%; height: 100.0%;">17th Century</div>`)[0];
+            popup_1331714afaa4412e8f423079a9a87f40.setContent(html_53650541864e414f92a97dedcec8da36);
+        
+
+        circle_marker_4354e1a5312643508161f8539fafd729.bindPopup(popup_1331714afaa4412e8f423079a9a87f40)
+        ;
+
+        
+    
+    
+            circle_marker_4354e1a5312643508161f8539fafd729.bindTooltip(
+                `<div>
+                     17th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a3cc462e42c40869bd14327520f7e03 = L.circleMarker(
+                [14.16529, 39.44767],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_d3d09241f21e4e5bb50c826e5237e98e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e66273a3834344c3906e27e46d51a124 = $(`<div id="html_e66273a3834344c3906e27e46d51a124" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_d3d09241f21e4e5bb50c826e5237e98e.setContent(html_e66273a3834344c3906e27e46d51a124);
+        
+
+        circle_marker_9a3cc462e42c40869bd14327520f7e03.bindPopup(popup_d3d09241f21e4e5bb50c826e5237e98e)
+        ;
+
+        
+    
+    
+            circle_marker_9a3cc462e42c40869bd14327520f7e03.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7e651a51d854198935157e68ed640ea = L.circleMarker(
+                [14.30883, 39.37868],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_bc10fdbb9cec45789e5627b1a3c7d56d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6de267c39704f37a6a1a291052dff78 = $(`<div id="html_c6de267c39704f37a6a1a291052dff78" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_bc10fdbb9cec45789e5627b1a3c7d56d.setContent(html_c6de267c39704f37a6a1a291052dff78);
+        
+
+        circle_marker_e7e651a51d854198935157e68ed640ea.bindPopup(popup_bc10fdbb9cec45789e5627b1a3c7d56d)
+        ;
+
+        
+    
+    
+            circle_marker_e7e651a51d854198935157e68ed640ea.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a8d15e27d37842f1b7a7e74cc88645d9 = L.circleMarker(
+                [14.30883, 39.37868],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_e32e882839fd4e5cb0c7cb4b1d4412e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ca557b1db8248019d89ee3e1fcda063 = $(`<div id="html_4ca557b1db8248019d89ee3e1fcda063" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_e32e882839fd4e5cb0c7cb4b1d4412e1.setContent(html_4ca557b1db8248019d89ee3e1fcda063);
+        
+
+        circle_marker_a8d15e27d37842f1b7a7e74cc88645d9.bindPopup(popup_e32e882839fd4e5cb0c7cb4b1d4412e1)
+        ;
+
+        
+    
+    
+            circle_marker_a8d15e27d37842f1b7a7e74cc88645d9.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a37ba24040247dd93745bae4edcc39b = L.circleMarker(
+                [14.32736, 39.40431],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_ec8b6ecd92f14aabb6517ca4a83424e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b459516589604ce7924a3984c40a9838 = $(`<div id="html_b459516589604ce7924a3984c40a9838" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_ec8b6ecd92f14aabb6517ca4a83424e4.setContent(html_b459516589604ce7924a3984c40a9838);
+        
+
+        circle_marker_9a37ba24040247dd93745bae4edcc39b.bindPopup(popup_ec8b6ecd92f14aabb6517ca4a83424e4)
+        ;
+
+        
+    
+    
+            circle_marker_9a37ba24040247dd93745bae4edcc39b.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e69479be63e40fcb7d711c9176177a6 = L.circleMarker(
+                [14.34529, 39.43503],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_101a8d110d1a4d248ca3d950ac0c9a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67397f62c37640a79b641c61eb3753aa = $(`<div id="html_67397f62c37640a79b641c61eb3753aa" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_101a8d110d1a4d248ca3d950ac0c9a62.setContent(html_67397f62c37640a79b641c61eb3753aa);
+        
+
+        circle_marker_6e69479be63e40fcb7d711c9176177a6.bindPopup(popup_101a8d110d1a4d248ca3d950ac0c9a62)
+        ;
+
+        
+    
+    
+            circle_marker_6e69479be63e40fcb7d711c9176177a6.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dda0c49442aa4d77aaefbd6129e82fe2 = L.circleMarker(
+                [14.37433, 39.29217],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_74a24ba27a134b53919f0902dd289d09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe76b8480544cff8fff5118ab4d8aa1 = $(`<div id="html_7fe76b8480544cff8fff5118ab4d8aa1" style="width: 100.0%; height: 100.0%;">16th Century</div>`)[0];
+            popup_74a24ba27a134b53919f0902dd289d09.setContent(html_7fe76b8480544cff8fff5118ab4d8aa1);
+        
+
+        circle_marker_dda0c49442aa4d77aaefbd6129e82fe2.bindPopup(popup_74a24ba27a134b53919f0902dd289d09)
+        ;
+
+        
+    
+    
+            circle_marker_dda0c49442aa4d77aaefbd6129e82fe2.bindTooltip(
+                `<div>
+                     16th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e73b0dd9309f444aa28a5ad0a4995ce8 = L.circleMarker(
+                [14.39483, 39.40653],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_75951a89d5404bc4a8ccac34486df1c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa6fa81895df4b33a3e7232cec5a2e52 = $(`<div id="html_aa6fa81895df4b33a3e7232cec5a2e52" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_75951a89d5404bc4a8ccac34486df1c2.setContent(html_aa6fa81895df4b33a3e7232cec5a2e52);
+        
+
+        circle_marker_e73b0dd9309f444aa28a5ad0a4995ce8.bindPopup(popup_75951a89d5404bc4a8ccac34486df1c2)
+        ;
+
+        
+    
+    
+            circle_marker_e73b0dd9309f444aa28a5ad0a4995ce8.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b36519cf5cfd426595550144d9c66921 = L.circleMarker(
+                [14.40967, 39.51811],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_158d03416d044df7a6bfca67bf88b197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aadebebbfa0947a8a37f4f5643f9fff6 = $(`<div id="html_aadebebbfa0947a8a37f4f5643f9fff6" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_158d03416d044df7a6bfca67bf88b197.setContent(html_aadebebbfa0947a8a37f4f5643f9fff6);
+        
+
+        circle_marker_b36519cf5cfd426595550144d9c66921.bindPopup(popup_158d03416d044df7a6bfca67bf88b197)
+        ;
+
+        
+    
+    
+            circle_marker_b36519cf5cfd426595550144d9c66921.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b51e4874ad3d440787a0d52920db1fb8 = L.circleMarker(
+                [14.42711, 39.45108],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_fffae7d0a6af4aea9e06cb39284fde16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f10f7ba8d19a4de4991c2dc9ff6938fc = $(`<div id="html_f10f7ba8d19a4de4991c2dc9ff6938fc" style="width: 100.0%; height: 100.0%;">20th Century</div>`)[0];
+            popup_fffae7d0a6af4aea9e06cb39284fde16.setContent(html_f10f7ba8d19a4de4991c2dc9ff6938fc);
+        
+
+        circle_marker_b51e4874ad3d440787a0d52920db1fb8.bindPopup(popup_fffae7d0a6af4aea9e06cb39284fde16)
+        ;
+
+        
+    
+    
+            circle_marker_b51e4874ad3d440787a0d52920db1fb8.bindTooltip(
+                `<div>
+                     20th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_db3f0b9f85db4694bab64d269e8c111d = L.circleMarker(
+                [14.7, 39.41667],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_4be3c891c5d7469fb397b2d2fb63a7c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be406f79c46d40d594bca2f931743808 = $(`<div id="html_be406f79c46d40d594bca2f931743808" style="width: 100.0%; height: 100.0%;">18th Century</div>`)[0];
+            popup_4be3c891c5d7469fb397b2d2fb63a7c1.setContent(html_be406f79c46d40d594bca2f931743808);
+        
+
+        circle_marker_db3f0b9f85db4694bab64d269e8c111d.bindPopup(popup_4be3c891c5d7469fb397b2d2fb63a7c1)
+        ;
+
+        
+    
+    
+            circle_marker_db3f0b9f85db4694bab64d269e8c111d.bindTooltip(
+                `<div>
+                     18th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c3e815530964dc2896ff2f209a628a4 = L.circleMarker(
+                [15.82958, 38.78174],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_346be264e53445de8101afbf86973d4e);
+        
+    
+        var popup_b5a44e81db1a4f328716b31a042faf03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f66716f1e7f4ae4836caa1c6f993944 = $(`<div id="html_3f66716f1e7f4ae4836caa1c6f993944" style="width: 100.0%; height: 100.0%;">19th Century</div>`)[0];
+            popup_b5a44e81db1a4f328716b31a042faf03.setContent(html_3f66716f1e7f4ae4836caa1c6f993944);
+        
+
+        circle_marker_1c3e815530964dc2896ff2f209a628a4.bindPopup(popup_b5a44e81db1a4f328716b31a042faf03)
+        ;
+
+        
+    
+    
+            circle_marker_1c3e815530964dc2896ff2f209a628a4.bindTooltip(
+                `<div>
+                     19th Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

@@ -1,0 +1,166 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+        type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="EMML228" type="mss">
+   <teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="t1">EMML 228</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <editionStmt>
+            <p>The initial version of this file was created from data kindly
+                                provided by Hill Museum &amp; Manuscript Library.</p>
+            <p>Permalink: <ref type="mss" target="https://w3id.org/vhmml/readingRoom/view/202089">https://w3id.org/vhmml/readingRoom/view/202089.</ref>
+            </p>
+            <p/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine
+                                multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>This XML file is licensed under the Creative Commons
+                                        Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            <date>2017-11-30+01:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository ref="INS0004HMML"/>
+                  <collection>Parish Church, Addis Ababa</collection>
+                  <idno>MS EMML no. 228</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>
+                           <measure unit="leaf">ff 116+2</measure>
+                           <dimensions>
+                              <dim>27.5 x 19 cm</dim>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <condition key="good">f 116ab blank.  Legibility affected by finger marks and dirt.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <persName role="scribe">Fesha Sayon (colophon f 114a).</persName>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote xml:id="d1">
+                        <desc>Illumination: f 1a</desc>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1900" notAfter="1925">20th century,
+                                                        </origDate>
+                  </origin>
+                  <provenance>Copied for Fesseha Giyorgis. (See Bibliography for more information). In Church St. Urā'ēl when filmed.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl>
+                                 <ptr target="bm:EMML1"/>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+         <listPrefixDef xmlns:xi="http://www.w3.org/2001/XInclude">
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="(\d{5-8})" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+    
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+    
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+    
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef>
+            
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2017-11-30">Created minimal record with link from data sent from Daniel Gullo, HMML
+                            project.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="https://w3id.org/vhmml/readingRoom/view/202089"/>
+   </facsimile>
+   <text xml:base="https://betamasaheft.eu/">
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,3504 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a7715fd5aec486a99b48fa45c40b372 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+             <h3 align="center" style="font-size:16px"><b>Ethiopia Map Showing Location of Manuscripts II</b></h3>
+             
+    
+            <div class="folium-map" id="map_3a7715fd5aec486a99b48fa45c40b372" ></div>
+        
+</body>
+<script>    
+    
+            var map_3a7715fd5aec486a99b48fa45c40b372 = L.map(
+                "map_3a7715fd5aec486a99b48fa45c40b372",
+                {
+                    center: [9.145, 40.4897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_647ed98dcb0d4e129dbe073d9939b749 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3a7715fd5aec486a99b48fa45c40b372);
+        
+    
+            var marker_cluster_5343898477774ed285a5559d6d97decd = L.markerClusterGroup(
+                {}
+            );
+            map_3a7715fd5aec486a99b48fa45c40b372.addLayer(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+            var marker_2a6c79f5791549ad8de5cf6b70bcc0b0 = L.marker(
+                [8.86824, 38.79112],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_7b781b5b9ed24426849077e9d263e88b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c437c4454d7c45af8581ae5c0bb4fcf2 = $(`<div id="html_c437c4454d7c45af8581ae5c0bb4fcf2" style="width: 100.0%; height: 100.0%;">Savior of the World (Madhane Alam), Church of</div>`)[0];
+            popup_7b781b5b9ed24426849077e9d263e88b.setContent(html_c437c4454d7c45af8581ae5c0bb4fcf2);
+        
+
+        marker_2a6c79f5791549ad8de5cf6b70bcc0b0.bindPopup(popup_7b781b5b9ed24426849077e9d263e88b)
+        ;
+
+        
+    
+    
+            marker_2a6c79f5791549ad8de5cf6b70bcc0b0.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5f7e79f23f14b29a768f09ea4b9908d = L.marker(
+                [8.86824, 38.79112],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_bda170f805f648fa9c0f2b33c8f42daa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79149b6210cf44db9fec0b8c2dd68a38 = $(`<div id="html_79149b6210cf44db9fec0b8c2dd68a38" style="width: 100.0%; height: 100.0%;">Savior of the World (Madhane Alam), Church of (in Addis or Gojjam?)</div>`)[0];
+            popup_bda170f805f648fa9c0f2b33c8f42daa.setContent(html_79149b6210cf44db9fec0b8c2dd68a38);
+        
+
+        marker_f5f7e79f23f14b29a768f09ea4b9908d.bindPopup(popup_bda170f805f648fa9c0f2b33c8f42daa)
+        ;
+
+        
+    
+    
+            marker_f5f7e79f23f14b29a768f09ea4b9908d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9a3cc93da054f52a84dc654c50912eb = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_c3bf453924084d86b71496aa4d4d8a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c99fd982fa024c5b92099156263c5478 = $(`<div id="html_c99fd982fa024c5b92099156263c5478" style="width: 100.0%; height: 100.0%;">Private library of Walga Mefrratu</div>`)[0];
+            popup_c3bf453924084d86b71496aa4d4d8a42.setContent(html_c99fd982fa024c5b92099156263c5478);
+        
+
+        marker_f9a3cc93da054f52a84dc654c50912eb.bindPopup(popup_c3bf453924084d86b71496aa4d4d8a42)
+        ;
+
+        
+    
+    
+            marker_f9a3cc93da054f52a84dc654c50912eb.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4789feb5346c4850b9cb641a243c67b5 = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_567a20ca973749f8888015d4042f7ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48268aaf5ed44e7394a0c2223a90f10d = $(`<div id="html_48268aaf5ed44e7394a0c2223a90f10d" style="width: 100.0%; height: 100.0%;">Bookseller</div>`)[0];
+            popup_567a20ca973749f8888015d4042f7ad5.setContent(html_48268aaf5ed44e7394a0c2223a90f10d);
+        
+
+        marker_4789feb5346c4850b9cb641a243c67b5.bindPopup(popup_567a20ca973749f8888015d4042f7ad5)
+        ;
+
+        
+    
+    
+            marker_4789feb5346c4850b9cb641a243c67b5.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4de38810f3f24eceb2a6abcf33a35159 = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_69dee40b3f6345538c570bceac5ded0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_137437fb227f449d847f8c227c784383 = $(`<div id="html_137437fb227f449d847f8c227c784383" style="width: 100.0%; height: 100.0%;">St. Takla Haymanot Church</div>`)[0];
+            popup_69dee40b3f6345538c570bceac5ded0c.setContent(html_137437fb227f449d847f8c227c784383);
+        
+
+        marker_4de38810f3f24eceb2a6abcf33a35159.bindPopup(popup_69dee40b3f6345538c570bceac5ded0c)
+        ;
+
+        
+    
+    
+            marker_4de38810f3f24eceb2a6abcf33a35159.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca1e0b7fd27f45d7972e62edba923436 = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_6f2115f8ae4444a39198df35bbfbe4ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e2857d977a242aab32ffa1601391424 = $(`<div id="html_6e2857d977a242aab32ffa1601391424" style="width: 100.0%; height: 100.0%;">Unidentified library, presumably a bookseller,</div>`)[0];
+            popup_6f2115f8ae4444a39198df35bbfbe4ba.setContent(html_6e2857d977a242aab32ffa1601391424);
+        
+
+        marker_ca1e0b7fd27f45d7972e62edba923436.bindPopup(popup_6f2115f8ae4444a39198df35bbfbe4ba)
+        ;
+
+        
+    
+    
+            marker_ca1e0b7fd27f45d7972e62edba923436.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8554f6808d414b38b9fab2d1b0ea6817 = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_2f7eb333a2a04c70b7ae6d7e103b7304 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40c17ea9fdf04707a2e99d787416e9e5 = $(`<div id="html_40c17ea9fdf04707a2e99d787416e9e5" style="width: 100.0%; height: 100.0%;">Bookseller Ayele</div>`)[0];
+            popup_2f7eb333a2a04c70b7ae6d7e103b7304.setContent(html_40c17ea9fdf04707a2e99d787416e9e5);
+        
+
+        marker_8554f6808d414b38b9fab2d1b0ea6817.bindPopup(popup_2f7eb333a2a04c70b7ae6d7e103b7304)
+        ;
+
+        
+    
+    
+            marker_8554f6808d414b38b9fab2d1b0ea6817.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77ce58d588874078a123dd31f566be21 = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_863b4be6f68e4b3ba126a3480067d471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a405fd6971e4317ae429335f3fcd5a0 = $(`<div id="html_2a405fd6971e4317ae429335f3fcd5a0" style="width: 100.0%; height: 100.0%;">Apostles (Hawariat), Church of</div>`)[0];
+            popup_863b4be6f68e4b3ba126a3480067d471.setContent(html_2a405fd6971e4317ae429335f3fcd5a0);
+        
+
+        marker_77ce58d588874078a123dd31f566be21.bindPopup(popup_863b4be6f68e4b3ba126a3480067d471)
+        ;
+
+        
+    
+    
+            marker_77ce58d588874078a123dd31f566be21.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_762b73f09b654f1593f39100358bb1ba = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_db5b36e78ce543b4a9b90c1ceb1c10ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3516d9cb2a12478891d1823fe62bd4fc = $(`<div id="html_3516d9cb2a12478891d1823fe62bd4fc" style="width: 100.0%; height: 100.0%;">Bookseller Walga Mefrratu</div>`)[0];
+            popup_db5b36e78ce543b4a9b90c1ceb1c10ae.setContent(html_3516d9cb2a12478891d1823fe62bd4fc);
+        
+
+        marker_762b73f09b654f1593f39100358bb1ba.bindPopup(popup_db5b36e78ce543b4a9b90c1ceb1c10ae)
+        ;
+
+        
+    
+    
+            marker_762b73f09b654f1593f39100358bb1ba.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f64e2fdb55284f09aef9e7a395953a2d = L.marker(
+                [8.9853, 38.71711],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_0d53c4752ee6447b9e5bf5d9bb9c2d9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa9d7c585add4b0cbacbbbc37c4abde0 = $(`<div id="html_fa9d7c585add4b0cbacbbbc37c4abde0" style="width: 100.0%; height: 100.0%;">Bookseller Walga Mefrratu</div>`)[0];
+            popup_0d53c4752ee6447b9e5bf5d9bb9c2d9e.setContent(html_fa9d7c585add4b0cbacbbbc37c4abde0);
+        
+
+        marker_f64e2fdb55284f09aef9e7a395953a2d.bindPopup(popup_0d53c4752ee6447b9e5bf5d9bb9c2d9e)
+        ;
+
+        
+    
+    
+            marker_f64e2fdb55284f09aef9e7a395953a2d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0c5d4acecd14b398c6fa51ede1b9c3f = L.marker(
+                [9.00456, 38.75369],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_cfcc5643ea8446f3911e99e46d8a7188 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_459c3ecd9474467b8cc16929ad0c9796 = $(`<div id="html_459c3ecd9474467b8cc16929ad0c9796" style="width: 100.0%; height: 100.0%;">St. Cyriacus [Qirqos] Church</div>`)[0];
+            popup_cfcc5643ea8446f3911e99e46d8a7188.setContent(html_459c3ecd9474467b8cc16929ad0c9796);
+        
+
+        marker_b0c5d4acecd14b398c6fa51ede1b9c3f.bindPopup(popup_cfcc5643ea8446f3911e99e46d8a7188)
+        ;
+
+        
+    
+    
+            marker_b0c5d4acecd14b398c6fa51ede1b9c3f.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7975a1bce86f4d888f1b054daab201ca = L.marker(
+                [9.01039, 38.73706],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_82c0d83689854f6a95e10df26ffd0eca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a085d66d631545938ebf12a2b77a88bb = $(`<div id="html_a085d66d631545938ebf12a2b77a88bb" style="width: 100.0%; height: 100.0%;">Mekane Yesus Library, digitized at</div>`)[0];
+            popup_82c0d83689854f6a95e10df26ffd0eca.setContent(html_a085d66d631545938ebf12a2b77a88bb);
+        
+
+        marker_7975a1bce86f4d888f1b054daab201ca.bindPopup(popup_82c0d83689854f6a95e10df26ffd0eca)
+        ;
+
+        
+    
+    
+            marker_7975a1bce86f4d888f1b054daab201ca.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d396487160e042239a11147123511d83 = L.marker(
+                [9.01039, 38.73706],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_28a43886644f40e1a0a81f9d219a584b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b11e47cce9c6460887be3efae35bf196 = $(`<div id="html_b11e47cce9c6460887be3efae35bf196" style="width: 100.0%; height: 100.0%;">Nativity, the Church of</div>`)[0];
+            popup_28a43886644f40e1a0a81f9d219a584b.setContent(html_b11e47cce9c6460887be3efae35bf196);
+        
+
+        marker_d396487160e042239a11147123511d83.bindPopup(popup_28a43886644f40e1a0a81f9d219a584b)
+        ;
+
+        
+    
+    
+            marker_d396487160e042239a11147123511d83.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98df3080dfce4776bcbde366040abf78 = L.marker(
+                [9.01059, 38.7756],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_9b257e6c8f5c47c09513523c9ded3957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a394015dcc4642ecb2a87d1a6580acdb = $(`<div id="html_a394015dcc4642ecb2a87d1a6580acdb" style="width: 100.0%; height: 100.0%;">St. Urael Church</div>`)[0];
+            popup_9b257e6c8f5c47c09513523c9ded3957.setContent(html_a394015dcc4642ecb2a87d1a6580acdb);
+        
+
+        marker_98df3080dfce4776bcbde366040abf78.bindPopup(popup_9b257e6c8f5c47c09513523c9ded3957)
+        ;
+
+        
+    
+    
+            marker_98df3080dfce4776bcbde366040abf78.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d59080f44b194a3183825d64dd548a34 = L.marker(
+                [9.01059, 38.7756],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_9af6cca5939241b8b5c1468eb992db3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9203e4c87f3843b3b32b862375a4daac = $(`<div id="html_9203e4c87f3843b3b32b862375a4daac" style="width: 100.0%; height: 100.0%;">St. Stephen Church</div>`)[0];
+            popup_9af6cca5939241b8b5c1468eb992db3c.setContent(html_9203e4c87f3843b3b32b862375a4daac);
+        
+
+        marker_d59080f44b194a3183825d64dd548a34.bindPopup(popup_9af6cca5939241b8b5c1468eb992db3c)
+        ;
+
+        
+    
+    
+            marker_d59080f44b194a3183825d64dd548a34.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5843648d82ad46cc90efcfe237470b63 = L.marker(
+                [9.01059, 38.7756],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d7e995be8fc849bcacf46b492eb929a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0b3b3749c0b4d05a2080ebdfd165e2c = $(`<div id="html_c0b3b3749c0b4d05a2080ebdfd165e2c" style="width: 100.0%; height: 100.0%;">St. Stephen Church</div>`)[0];
+            popup_d7e995be8fc849bcacf46b492eb929a8.setContent(html_c0b3b3749c0b4d05a2080ebdfd165e2c);
+        
+
+        marker_5843648d82ad46cc90efcfe237470b63.bindPopup(popup_d7e995be8fc849bcacf46b492eb929a8)
+        ;
+
+        
+    
+    
+            marker_5843648d82ad46cc90efcfe237470b63.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_775e34939db64b649216bab10e3a86c8 = L.marker(
+                [9.02862, 38.70371],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_4210acf958b342dd9e7d767412bd140b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9655fba10a4d41bd658cff711dc12b = $(`<div id="html_0e9655fba10a4d41bd658cff711dc12b" style="width: 100.0%; height: 100.0%;">St. Paul (Paulos) Church</div>`)[0];
+            popup_4210acf958b342dd9e7d767412bd140b.setContent(html_0e9655fba10a4d41bd658cff711dc12b);
+        
+
+        marker_775e34939db64b649216bab10e3a86c8.bindPopup(popup_4210acf958b342dd9e7d767412bd140b)
+        ;
+
+        
+    
+    
+            marker_775e34939db64b649216bab10e3a86c8.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c60aceabcf76471694dab54dfc18f316 = L.marker(
+                [9.03679, 38.76187],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_00ab88e182ae493aa5a3203fb18a1d81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7edb3b8a7c9848a2b07857cc9aeef7b2 = $(`<div id="html_7edb3b8a7c9848a2b07857cc9aeef7b2" style="width: 100.0%; height: 100.0%;">Patriarchate Library</div>`)[0];
+            popup_00ab88e182ae493aa5a3203fb18a1d81.setContent(html_7edb3b8a7c9848a2b07857cc9aeef7b2);
+        
+
+        marker_c60aceabcf76471694dab54dfc18f316.bindPopup(popup_00ab88e182ae493aa5a3203fb18a1d81)
+        ;
+
+        
+    
+    
+            marker_c60aceabcf76471694dab54dfc18f316.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eee95469be7e4395b71d90077e82f3fe = L.marker(
+                [9.04673, 38.758],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_720cb24dcd3845bc8d5ad55de8633d08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5db53d1d653c421180d036ede99a079b = $(`<div id="html_5db53d1d653c421180d036ede99a079b" style="width: 100.0%; height: 100.0%;">Institute of Ethiopian Studies</div>`)[0];
+            popup_720cb24dcd3845bc8d5ad55de8633d08.setContent(html_5db53d1d653c421180d036ede99a079b);
+        
+
+        marker_eee95469be7e4395b71d90077e82f3fe.bindPopup(popup_720cb24dcd3845bc8d5ad55de8633d08)
+        ;
+
+        
+    
+    
+            marker_eee95469be7e4395b71d90077e82f3fe.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd5311963c444c77903b252badc383fb = L.marker(
+                [9.04673, 38.758],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_90b5885ae112455eb2addd3db4d012e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8028009fb9c9444089c0803b71775b4a = $(`<div id="html_8028009fb9c9444089c0803b71775b4a" style="width: 100.0%; height: 100.0%;">Institute of Ethiopian Studies</div>`)[0];
+            popup_90b5885ae112455eb2addd3db4d012e4.setContent(html_8028009fb9c9444089c0803b71775b4a);
+        
+
+        marker_bd5311963c444c77903b252badc383fb.bindPopup(popup_90b5885ae112455eb2addd3db4d012e4)
+        ;
+
+        
+    
+    
+            marker_bd5311963c444c77903b252badc383fb.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9337b92fd08a4ca4957360965a576f4d = L.marker(
+                [9.04673, 38.758],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_c4c12e4bfdd146e58c750a2db4dae871 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4406d88a9f4955935e879103c173d6 = $(`<div id="html_6b4406d88a9f4955935e879103c173d6" style="width: 100.0%; height: 100.0%;">Institute of Ethiopian Studies</div>`)[0];
+            popup_c4c12e4bfdd146e58c750a2db4dae871.setContent(html_6b4406d88a9f4955935e879103c173d6);
+        
+
+        marker_9337b92fd08a4ca4957360965a576f4d.bindPopup(popup_c4c12e4bfdd146e58c750a2db4dae871)
+        ;
+
+        
+    
+    
+            marker_9337b92fd08a4ca4957360965a576f4d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2db7a01214a40ecb7e3b9d9b0ce04af = L.marker(
+                [9.04673, 38.758],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_e628773762f24bf8a6ca353fc66a4b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b545e0d71e4da6ab7dc3bdea1810f2 = $(`<div id="html_a4b545e0d71e4da6ab7dc3bdea1810f2" style="width: 100.0%; height: 100.0%;">Institute of Ethiopian Studies</div>`)[0];
+            popup_e628773762f24bf8a6ca353fc66a4b7f.setContent(html_a4b545e0d71e4da6ab7dc3bdea1810f2);
+        
+
+        marker_e2db7a01214a40ecb7e3b9d9b0ce04af.bindPopup(popup_e628773762f24bf8a6ca353fc66a4b7f)
+        ;
+
+        
+    
+    
+            marker_e2db7a01214a40ecb7e3b9d9b0ce04af.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63723fde0598401e96b26d505c92db7d = L.marker(
+                [9.04673, 38.758],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_fe141fb61cc344aba7cee7d6b24fdb57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c660984cee1e4371923136611248645b = $(`<div id="html_c660984cee1e4371923136611248645b" style="width: 100.0%; height: 100.0%;">Institute of Ethiopian Studies, University of Addis Ababa</div>`)[0];
+            popup_fe141fb61cc344aba7cee7d6b24fdb57.setContent(html_c660984cee1e4371923136611248645b);
+        
+
+        marker_63723fde0598401e96b26d505c92db7d.bindPopup(popup_fe141fb61cc344aba7cee7d6b24fdb57)
+        ;
+
+        
+    
+    
+            marker_63723fde0598401e96b26d505c92db7d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8da679fee3af46d4995249d26bf3daef = L.marker(
+                [9.04673, 38.758],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_2811f84916484621a16e6507ae05adcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79c28feba65345d88de917087c78f55a = $(`<div id="html_79c28feba65345d88de917087c78f55a" style="width: 100.0%; height: 100.0%;">Institute of Ethiopian Studies, University of Addis Ababa</div>`)[0];
+            popup_2811f84916484621a16e6507ae05adcf.setContent(html_79c28feba65345d88de917087c78f55a);
+        
+
+        marker_8da679fee3af46d4995249d26bf3daef.bindPopup(popup_2811f84916484621a16e6507ae05adcf)
+        ;
+
+        
+    
+    
+            marker_8da679fee3af46d4995249d26bf3daef.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42b64ca7a10b4fa8a9a0a3afded61990 = L.marker(
+                [9.05327, 38.72335],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_2fce8d0c8f774942894099bab3c07367 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9701e1fc5e004f0996971874dc5b3420 = $(`<div id="html_9701e1fc5e004f0996971874dc5b3420" style="width: 100.0%; height: 100.0%;">Savior of the World (Madhane Alam), Church of (also Gulale)</div>`)[0];
+            popup_2fce8d0c8f774942894099bab3c07367.setContent(html_9701e1fc5e004f0996971874dc5b3420);
+        
+
+        marker_42b64ca7a10b4fa8a9a0a3afded61990.bindPopup(popup_2fce8d0c8f774942894099bab3c07367)
+        ;
+
+        
+    
+    
+            marker_42b64ca7a10b4fa8a9a0a3afded61990.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f328eaa7661b49479bc8839dc6110d79 = L.marker(
+                [9.05327, 38.72335],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_220a18d144a145a792198d45c6745637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4687fe52f95b4bc08a47847b15385cf8 = $(`<div id="html_4687fe52f95b4bc08a47847b15385cf8" style="width: 100.0%; height: 100.0%;">Savior of the World (Madhane Alam), Church of</div>`)[0];
+            popup_220a18d144a145a792198d45c6745637.setContent(html_4687fe52f95b4bc08a47847b15385cf8);
+        
+
+        marker_f328eaa7661b49479bc8839dc6110d79.bindPopup(popup_220a18d144a145a792198d45c6745637)
+        ;
+
+        
+    
+    
+            marker_f328eaa7661b49479bc8839dc6110d79.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dc8f83b365542caaf4fe677eba08190 = L.marker(
+                [9.05327, 38.72335],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_12f954f3382c4f2a8c14f6e3fa43e228 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aaa85a7a2244d429e244c097aa2fade = $(`<div id="html_9aaa85a7a2244d429e244c097aa2fade" style="width: 100.0%; height: 100.0%;">Savior of the World (Madhane Alam), Church of</div>`)[0];
+            popup_12f954f3382c4f2a8c14f6e3fa43e228.setContent(html_9aaa85a7a2244d429e244c097aa2fade);
+        
+
+        marker_5dc8f83b365542caaf4fe677eba08190.bindPopup(popup_12f954f3382c4f2a8c14f6e3fa43e228)
+        ;
+
+        
+    
+    
+            marker_5dc8f83b365542caaf4fe677eba08190.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcef4d04c6684ecc8fd8df6e93d89bdf = L.marker(
+                [9.05327, 38.72335],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_58c1d912057c4b22b21879c848f442ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_471e65b1f82b481d82565cbaa0d91efa = $(`<div id="html_471e65b1f82b481d82565cbaa0d91efa" style="width: 100.0%; height: 100.0%;">Savior of the World (Madhane Alam), Church of</div>`)[0];
+            popup_58c1d912057c4b22b21879c848f442ac.setContent(html_471e65b1f82b481d82565cbaa0d91efa);
+        
+
+        marker_bcef4d04c6684ecc8fd8df6e93d89bdf.bindPopup(popup_58c1d912057c4b22b21879c848f442ac)
+        ;
+
+        
+    
+    
+            marker_bcef4d04c6684ecc8fd8df6e93d89bdf.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a73db130799f4956a5cf1b3c9ac715c8 = L.marker(
+                [9.05344, 38.71515],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d0f7c5760efd4e33a87f093fc5c9b09d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce90da48171042cc99d6a665b75c3cfb = $(`<div id="html_ce90da48171042cc99d6a665b75c3cfb" style="width: 100.0%; height: 100.0%;">Sts. Peter & Paul Church</div>`)[0];
+            popup_d0f7c5760efd4e33a87f093fc5c9b09d.setContent(html_ce90da48171042cc99d6a665b75c3cfb);
+        
+
+        marker_a73db130799f4956a5cf1b3c9ac715c8.bindPopup(popup_d0f7c5760efd4e33a87f093fc5c9b09d)
+        ;
+
+        
+    
+    
+            marker_a73db130799f4956a5cf1b3c9ac715c8.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ab22988f144432688d246925d868308 = L.marker(
+                [9.05789, 38.72761],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_60b0bea7e18848b6bafc5c3dfd530bcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8325ea8d7c244ca68c71497aad9cadb9 = $(`<div id="html_8325ea8d7c244ca68c71497aad9cadb9" style="width: 100.0%; height: 100.0%;">St. Raphael Church (Gulale?)</div>`)[0];
+            popup_60b0bea7e18848b6bafc5c3dfd530bcd.setContent(html_8325ea8d7c244ca68c71497aad9cadb9);
+        
+
+        marker_3ab22988f144432688d246925d868308.bindPopup(popup_60b0bea7e18848b6bafc5c3dfd530bcd)
+        ;
+
+        
+    
+    
+            marker_3ab22988f144432688d246925d868308.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d201d6d0b4e428c9dd77318b0d4186a = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_54a72a0092ed411c9ffdc6fa23cff7db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_185c7140576d4de7a8a850484a109843 = $(`<div id="html_185c7140576d4de7a8a850484a109843" style="width: 100.0%; height: 100.0%;">Trinity Cathedral</div>`)[0];
+            popup_54a72a0092ed411c9ffdc6fa23cff7db.setContent(html_185c7140576d4de7a8a850484a109843);
+        
+
+        marker_2d201d6d0b4e428c9dd77318b0d4186a.bindPopup(popup_54a72a0092ed411c9ffdc6fa23cff7db)
+        ;
+
+        
+    
+    
+            marker_2d201d6d0b4e428c9dd77318b0d4186a.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e149b9032a1d483498064c7ad57e9476 = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_3be075443ee6485597450aa74a449bc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_986cc87fa97d427dadff57a237521642 = $(`<div id="html_986cc87fa97d427dadff57a237521642" style="width: 100.0%; height: 100.0%;">Trinity Cathedral</div>`)[0];
+            popup_3be075443ee6485597450aa74a449bc0.setContent(html_986cc87fa97d427dadff57a237521642);
+        
+
+        marker_e149b9032a1d483498064c7ad57e9476.bindPopup(popup_3be075443ee6485597450aa74a449bc0)
+        ;
+
+        
+    
+    
+            marker_e149b9032a1d483498064c7ad57e9476.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d33fa544c4b74236b63f94b9a533e87d = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_fa0494421b7e4b77aff3d2ee5d4bfccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_223326ca48e947428ae3c27ca44f3946 = $(`<div id="html_223326ca48e947428ae3c27ca44f3946" style="width: 100.0%; height: 100.0%;">Trinity Cathedral</div>`)[0];
+            popup_fa0494421b7e4b77aff3d2ee5d4bfccd.setContent(html_223326ca48e947428ae3c27ca44f3946);
+        
+
+        marker_d33fa544c4b74236b63f94b9a533e87d.bindPopup(popup_fa0494421b7e4b77aff3d2ee5d4bfccd)
+        ;
+
+        
+    
+    
+            marker_d33fa544c4b74236b63f94b9a533e87d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f4128382f164a1a9f7b6f35f9ef8201 = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_4ed714bf0caf4a9888252fe6d15bb495 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bd99bc9267a4c20bcde5a034a7d34cf = $(`<div id="html_2bd99bc9267a4c20bcde5a034a7d34cf" style="width: 100.0%; height: 100.0%;">Trinity Cathedral</div>`)[0];
+            popup_4ed714bf0caf4a9888252fe6d15bb495.setContent(html_2bd99bc9267a4c20bcde5a034a7d34cf);
+        
+
+        marker_6f4128382f164a1a9f7b6f35f9ef8201.bindPopup(popup_4ed714bf0caf4a9888252fe6d15bb495)
+        ;
+
+        
+    
+    
+            marker_6f4128382f164a1a9f7b6f35f9ef8201.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_521c295067034ce29e27aeaf189adf1c = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1e880b9470af47958f8c34db0ee8410e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13fa1702a5eb491eb25e709f9e89fcb9 = $(`<div id="html_13fa1702a5eb491eb25e709f9e89fcb9" style="width: 100.0%; height: 100.0%;">St. Mary Church</div>`)[0];
+            popup_1e880b9470af47958f8c34db0ee8410e.setContent(html_13fa1702a5eb491eb25e709f9e89fcb9);
+        
+
+        marker_521c295067034ce29e27aeaf189adf1c.bindPopup(popup_1e880b9470af47958f8c34db0ee8410e)
+        ;
+
+        
+    
+    
+            marker_521c295067034ce29e27aeaf189adf1c.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59dad57626bf4952970293335fc8e694 = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_c535aa9ea108441dad6c0585a0a4e237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc36734824564ba88ecad9bca3ac8ab5 = $(`<div id="html_dc36734824564ba88ecad9bca3ac8ab5" style="width: 100.0%; height: 100.0%;">Patriarchate Library</div>`)[0];
+            popup_c535aa9ea108441dad6c0585a0a4e237.setContent(html_dc36734824564ba88ecad9bca3ac8ab5);
+        
+
+        marker_59dad57626bf4952970293335fc8e694.bindPopup(popup_c535aa9ea108441dad6c0585a0a4e237)
+        ;
+
+        
+    
+    
+            marker_59dad57626bf4952970293335fc8e694.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13afc66423f84c4fbb8a4a0ebefcbf27 = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1217a0d49abe4678b85b75a8295e9fbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d252c43ea02348ae983079de4569f35a = $(`<div id="html_d252c43ea02348ae983079de4569f35a" style="width: 100.0%; height: 100.0%;">Patriarchate Library</div>`)[0];
+            popup_1217a0d49abe4678b85b75a8295e9fbc.setContent(html_d252c43ea02348ae983079de4569f35a);
+        
+
+        marker_13afc66423f84c4fbb8a4a0ebefcbf27.bindPopup(popup_1217a0d49abe4678b85b75a8295e9fbc)
+        ;
+
+        
+    
+    
+            marker_13afc66423f84c4fbb8a4a0ebefcbf27.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07753675cca3402285d88ce13a7e41ce = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_8da101dac28b4343b9e40a7e35bfb6c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbfc9bba3bb941fa883baa39c7d0a07e = $(`<div id="html_fbfc9bba3bb941fa883baa39c7d0a07e" style="width: 100.0%; height: 100.0%;">Patriarchate Library</div>`)[0];
+            popup_8da101dac28b4343b9e40a7e35bfb6c1.setContent(html_fbfc9bba3bb941fa883baa39c7d0a07e);
+        
+
+        marker_07753675cca3402285d88ce13a7e41ce.bindPopup(popup_8da101dac28b4343b9e40a7e35bfb6c1)
+        ;
+
+        
+    
+    
+            marker_07753675cca3402285d88ce13a7e41ce.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7eaa30e19e99499aaff5afb7b6e88474 = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_a7152203808c4a49a0e68fbc3bfe6566 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b08e63f9272456e9cd55a0b9bbb9996 = $(`<div id="html_1b08e63f9272456e9cd55a0b9bbb9996" style="width: 100.0%; height: 100.0%;">Private library of Dr. Abraham Demoz</div>`)[0];
+            popup_a7152203808c4a49a0e68fbc3bfe6566.setContent(html_1b08e63f9272456e9cd55a0b9bbb9996);
+        
+
+        marker_7eaa30e19e99499aaff5afb7b6e88474.bindPopup(popup_a7152203808c4a49a0e68fbc3bfe6566)
+        ;
+
+        
+    
+    
+            marker_7eaa30e19e99499aaff5afb7b6e88474.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d29af2cec2244989581708e322ec5d4 = L.marker(
+                [9.06476, 38.772],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_0c6f0891eff04e6aa65d25ecb8389027 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0945200837364d819def82f49fe4cf94 = $(`<div id="html_0945200837364d819def82f49fe4cf94" style="width: 100.0%; height: 100.0%;">St. Takla Haymanot Church, Ato Ayele (bookseller)</div>`)[0];
+            popup_0c6f0891eff04e6aa65d25ecb8389027.setContent(html_0945200837364d819def82f49fe4cf94);
+        
+
+        marker_4d29af2cec2244989581708e322ec5d4.bindPopup(popup_0c6f0891eff04e6aa65d25ecb8389027)
+        ;
+
+        
+    
+    
+            marker_4d29af2cec2244989581708e322ec5d4.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f04071d89c1a4c538f7b0df1b10617ec = L.marker(
+                [9.11658, 38.77222],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_fe90e25298ce42ceb111066d932286a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48750b3b58a543fb83fd7bb37559620b = $(`<div id="html_48750b3b58a543fb83fd7bb37559620b" style="width: 100.0%; height: 100.0%;">St. Markos (Mark) Church, microfilmed at</div>`)[0];
+            popup_fe90e25298ce42ceb111066d932286a7.setContent(html_48750b3b58a543fb83fd7bb37559620b);
+        
+
+        marker_f04071d89c1a4c538f7b0df1b10617ec.bindPopup(popup_fe90e25298ce42ceb111066d932286a7)
+        ;
+
+        
+    
+    
+            marker_f04071d89c1a4c538f7b0df1b10617ec.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_523e1d131d6648ed862ba8a5a0d3297a = L.marker(
+                [9.11658, 38.77222],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d833324ddd264accb434206512461c49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0cee51bd6a641cdaf5dd7321e8d587a = $(`<div id="html_c0cee51bd6a641cdaf5dd7321e8d587a" style="width: 100.0%; height: 100.0%;">St. Ragu'el Church</div>`)[0];
+            popup_d833324ddd264accb434206512461c49.setContent(html_c0cee51bd6a641cdaf5dd7321e8d587a);
+        
+
+        marker_523e1d131d6648ed862ba8a5a0d3297a.bindPopup(popup_d833324ddd264accb434206512461c49)
+        ;
+
+        
+    
+    
+            marker_523e1d131d6648ed862ba8a5a0d3297a.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_912a61a9fd4545129bc44dc0b4683e97 = L.marker(
+                [9.11658, 38.77222],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_a702ded325a6438bb8f379b75e7f4425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a76043f3c21497e944d05667465030c = $(`<div id="html_0a76043f3c21497e944d05667465030c" style="width: 100.0%; height: 100.0%;">Our Lady of Mount Qwesqwam, Church of</div>`)[0];
+            popup_a702ded325a6438bb8f379b75e7f4425.setContent(html_0a76043f3c21497e944d05667465030c);
+        
+
+        marker_912a61a9fd4545129bc44dc0b4683e97.bindPopup(popup_a702ded325a6438bb8f379b75e7f4425)
+        ;
+
+        
+    
+    
+            marker_912a61a9fd4545129bc44dc0b4683e97.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f52d2e94611413893d083f8de20eda5 = L.marker(
+                [9.54882, 39.69241],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_ad9a449449524e618367650c23698615 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59da6a5a19bf494baa20937f26b1263b = $(`<div id="html_59da6a5a19bf494baa20937f26b1263b" style="width: 100.0%; height: 100.0%;">Darafo Maryam Church</div>`)[0];
+            popup_ad9a449449524e618367650c23698615.setContent(html_59da6a5a19bf494baa20937f26b1263b);
+        
+
+        marker_6f52d2e94611413893d083f8de20eda5.bindPopup(popup_ad9a449449524e618367650c23698615)
+        ;
+
+        
+    
+    
+            marker_6f52d2e94611413893d083f8de20eda5.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6058379468ec4c68a658feedfc721fd2 = L.marker(
+                [9.54882, 39.69241],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_27c2201b497342bfb0074602f3e83938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f1e8cfc0ea54aca948dca182ab53914 = $(`<div id="html_8f1e8cfc0ea54aca948dca182ab53914" style="width: 100.0%; height: 100.0%;">Darafo Maryam Church</div>`)[0];
+            popup_27c2201b497342bfb0074602f3e83938.setContent(html_8f1e8cfc0ea54aca948dca182ab53914);
+        
+
+        marker_6058379468ec4c68a658feedfc721fd2.bindPopup(popup_27c2201b497342bfb0074602f3e83938)
+        ;
+
+        
+    
+    
+            marker_6058379468ec4c68a658feedfc721fd2.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_858ace6719ea4e4faa40a2c83b8d94b8 = L.marker(
+                [9.58969, 39.73325],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_33be9394bd9243ad911540f603f895a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74473740d5ee4dd1bc680620cc569318 = $(`<div id="html_74473740d5ee4dd1bc680620cc569318" style="width: 100.0%; height: 100.0%;">Qundi Giyorgis Church</div>`)[0];
+            popup_33be9394bd9243ad911540f603f895a3.setContent(html_74473740d5ee4dd1bc680620cc569318);
+        
+
+        marker_858ace6719ea4e4faa40a2c83b8d94b8.bindPopup(popup_33be9394bd9243ad911540f603f895a3)
+        ;
+
+        
+    
+    
+            marker_858ace6719ea4e4faa40a2c83b8d94b8.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5c13adbcf7f406387da0122fba8823a = L.marker(
+                [9.58969, 39.73325],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_bd76bd6b804a4376a1f9ebf559c5cfe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad9abde040b44d4c9fdb3f2f4b4940bf = $(`<div id="html_ad9abde040b44d4c9fdb3f2f4b4940bf" style="width: 100.0%; height: 100.0%;">Qundi Giyorgis Church</div>`)[0];
+            popup_bd76bd6b804a4376a1f9ebf559c5cfe4.setContent(html_ad9abde040b44d4c9fdb3f2f4b4940bf);
+        
+
+        marker_a5c13adbcf7f406387da0122fba8823a.bindPopup(popup_bd76bd6b804a4376a1f9ebf559c5cfe4)
+        ;
+
+        
+    
+    
+            marker_a5c13adbcf7f406387da0122fba8823a.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59706d352a2c469ba0a6a9b830d2f372 = L.marker(
+                [9.59499, 39.7346],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_b110a0abec224288a161026411a69179 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01ce759cd45b4f8ca60a96e2cd916bd8 = $(`<div id="html_01ce759cd45b4f8ca60a96e2cd916bd8" style="width: 100.0%; height: 100.0%;">Sotal Amba Kidana Mihret Church</div>`)[0];
+            popup_b110a0abec224288a161026411a69179.setContent(html_01ce759cd45b4f8ca60a96e2cd916bd8);
+        
+
+        marker_59706d352a2c469ba0a6a9b830d2f372.bindPopup(popup_b110a0abec224288a161026411a69179)
+        ;
+
+        
+    
+    
+            marker_59706d352a2c469ba0a6a9b830d2f372.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20c81b7859ad4d73b876c193b54e9bec = L.marker(
+                [9.59524, 39.73461],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_0343d535c0624764ba7b413c0b6e8a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_173da3da52db43448dc1f1f1fa288341 = $(`<div id="html_173da3da52db43448dc1f1f1fa288341" style="width: 100.0%; height: 100.0%;">St. Giyorgis</div>`)[0];
+            popup_0343d535c0624764ba7b413c0b6e8a58.setContent(html_173da3da52db43448dc1f1f1fa288341);
+        
+
+        marker_20c81b7859ad4d73b876c193b54e9bec.bindPopup(popup_0343d535c0624764ba7b413c0b6e8a58)
+        ;
+
+        
+    
+    
+            marker_20c81b7859ad4d73b876c193b54e9bec.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef679ccd104943fb98a17f4a9525ee5c = L.marker(
+                [9.59524, 39.73461],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_7a6cd0022fdb4ccc86e76a0aa7f87e6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d951e6c4f24d86bdcddeeeb0f0ad3c = $(`<div id="html_20d951e6c4f24d86bdcddeeeb0f0ad3c" style="width: 100.0%; height: 100.0%;">St. Giyorgis Church</div>`)[0];
+            popup_7a6cd0022fdb4ccc86e76a0aa7f87e6e.setContent(html_20d951e6c4f24d86bdcddeeeb0f0ad3c);
+        
+
+        marker_ef679ccd104943fb98a17f4a9525ee5c.bindPopup(popup_7a6cd0022fdb4ccc86e76a0aa7f87e6e)
+        ;
+
+        
+    
+    
+            marker_ef679ccd104943fb98a17f4a9525ee5c.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82e63412ef9444be88d44538d1d6b3e0 = L.marker(
+                [9.60072, 39.73582],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_829978b7682f41bca314ca7e8185cbc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4e162982edc4280b77aab526cb9c49a = $(`<div id="html_f4e162982edc4280b77aab526cb9c49a" style="width: 100.0%; height: 100.0%;">Amaya Agar Giyorgis Church</div>`)[0];
+            popup_829978b7682f41bca314ca7e8185cbc1.setContent(html_f4e162982edc4280b77aab526cb9c49a);
+        
+
+        marker_82e63412ef9444be88d44538d1d6b3e0.bindPopup(popup_829978b7682f41bca314ca7e8185cbc1)
+        ;
+
+        
+    
+    
+            marker_82e63412ef9444be88d44538d1d6b3e0.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43868f99746d4633b007d6a4af3f1f23 = L.marker(
+                [9.60072, 39.73582],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_ce83e292071e46eeb83e08939938694e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e354d92dcd14320a704b594c31fab8a = $(`<div id="html_1e354d92dcd14320a704b594c31fab8a" style="width: 100.0%; height: 100.0%;">Amba Kidane Mihret Church</div>`)[0];
+            popup_ce83e292071e46eeb83e08939938694e.setContent(html_1e354d92dcd14320a704b594c31fab8a);
+        
+
+        marker_43868f99746d4633b007d6a4af3f1f23.bindPopup(popup_ce83e292071e46eeb83e08939938694e)
+        ;
+
+        
+    
+    
+            marker_43868f99746d4633b007d6a4af3f1f23.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74cdd27f53f44621a3702d0d503ea708 = L.marker(
+                [9.65117, 39.51701],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_8de794d14b0c450f99afbf36c0856e62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59a98edec7bc46b3b5a9d7d310c238e5 = $(`<div id="html_59a98edec7bc46b3b5a9d7d310c238e5" style="width: 100.0%; height: 100.0%;">Yechege Qwesqwam</div>`)[0];
+            popup_8de794d14b0c450f99afbf36c0856e62.setContent(html_59a98edec7bc46b3b5a9d7d310c238e5);
+        
+
+        marker_74cdd27f53f44621a3702d0d503ea708.bindPopup(popup_8de794d14b0c450f99afbf36c0856e62)
+        ;
+
+        
+    
+    
+            marker_74cdd27f53f44621a3702d0d503ea708.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d4025791f59489a9855f0405255a584 = L.marker(
+                [9.69204, 39.83159],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d74e5bc384434e2384d35746e5478e96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc033d778f134b8186ec43a10cf2dee4 = $(`<div id="html_dc033d778f134b8186ec43a10cf2dee4" style="width: 100.0%; height: 100.0%;">Zambo Takla Haymanot</div>`)[0];
+            popup_d74e5bc384434e2384d35746e5478e96.setContent(html_dc033d778f134b8186ec43a10cf2dee4);
+        
+
+        marker_1d4025791f59489a9855f0405255a584.bindPopup(popup_d74e5bc384434e2384d35746e5478e96)
+        ;
+
+        
+    
+    
+            marker_1d4025791f59489a9855f0405255a584.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4019d2217dc4da78c63babfc21f8425 = L.marker(
+                [9.73542, 39.78255],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_358bd08003a14aea9d2ae3f6e1309bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1a35348b1c64606910cab643e230ac8 = $(`<div id="html_f1a35348b1c64606910cab643e230ac8" style="width: 100.0%; height: 100.0%;">Masaqo Selassie</div>`)[0];
+            popup_358bd08003a14aea9d2ae3f6e1309bd1.setContent(html_f1a35348b1c64606910cab643e230ac8);
+        
+
+        marker_c4019d2217dc4da78c63babfc21f8425.bindPopup(popup_358bd08003a14aea9d2ae3f6e1309bd1)
+        ;
+
+        
+    
+    
+            marker_c4019d2217dc4da78c63babfc21f8425.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_819c591214484607b20d4049ce52a30f = L.marker(
+                [10.00071, 39.26194],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1e050ca79ea24d3bbb320d7c179e4ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3734801f8b154263b1de4d5fb9020f79 = $(`<div id="html_3734801f8b154263b1de4d5fb9020f79" style="width: 100.0%; height: 100.0%;">Zena Marqos (Dabra Besrat) Monastery</div>`)[0];
+            popup_1e050ca79ea24d3bbb320d7c179e4ae7.setContent(html_3734801f8b154263b1de4d5fb9020f79);
+        
+
+        marker_819c591214484607b20d4049ce52a30f.bindPopup(popup_1e050ca79ea24d3bbb320d7c179e4ae7)
+        ;
+
+        
+    
+    
+            marker_819c591214484607b20d4049ce52a30f.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_192467473d064592a0682445d8a2b277 = L.marker(
+                [10.00071, 39.26194],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_e465f72b538042b3a77fd22aededbc9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df69b2f9198141c88fe079935931e8eb = $(`<div id="html_df69b2f9198141c88fe079935931e8eb" style="width: 100.0%; height: 100.0%;">Zemay Takla Haymanot</div>`)[0];
+            popup_e465f72b538042b3a77fd22aededbc9d.setContent(html_df69b2f9198141c88fe079935931e8eb);
+        
+
+        marker_192467473d064592a0682445d8a2b277.bindPopup(popup_e465f72b538042b3a77fd22aededbc9d)
+        ;
+
+        
+    
+    
+            marker_192467473d064592a0682445d8a2b277.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66cdbfa579314f81aed9c552c8964d6d = L.marker(
+                [10.00071, 39.26194],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_b1b095a4e01a4128acf671245b51b88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9ec585fa4364b2093d6dd162fead6d9 = $(`<div id="html_a9ec585fa4364b2093d6dd162fead6d9" style="width: 100.0%; height: 100.0%;">Gorat Abbo</div>`)[0];
+            popup_b1b095a4e01a4128acf671245b51b88e.setContent(html_a9ec585fa4364b2093d6dd162fead6d9);
+        
+
+        marker_66cdbfa579314f81aed9c552c8964d6d.bindPopup(popup_b1b095a4e01a4128acf671245b51b88e)
+        ;
+
+        
+    
+    
+            marker_66cdbfa579314f81aed9c552c8964d6d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f8d2004cd42453dbdab415d630d0948 = L.marker(
+                [10.33026, 37.72578],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1dade61d60d74ac791152720870b3aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aca450889f7245d695cb76984dd2ba4b = $(`<div id="html_aca450889f7245d695cb76984dd2ba4b" style="width: 100.0%; height: 100.0%;">Dabra Ḍaḥāy Qeddus Mārqos Church, Gojjam Province</div>`)[0];
+            popup_1dade61d60d74ac791152720870b3aff.setContent(html_aca450889f7245d695cb76984dd2ba4b);
+        
+
+        marker_2f8d2004cd42453dbdab415d630d0948.bindPopup(popup_1dade61d60d74ac791152720870b3aff)
+        ;
+
+        
+    
+    
+            marker_2f8d2004cd42453dbdab415d630d0948.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57d25e6eb15d4ea58d46651a3cf0924d = L.marker(
+                [10.33026, 37.72578],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_41e083c711804ebc850a9978af859606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e45260b563b04c4588063f11ffe3fdb0 = $(`<div id="html_e45260b563b04c4588063f11ffe3fdb0" style="width: 100.0%; height: 100.0%;">Dabra Ḍaḥāy Qeddus Mārqos Church, Gojjam Province</div>`)[0];
+            popup_41e083c711804ebc850a9978af859606.setContent(html_e45260b563b04c4588063f11ffe3fdb0);
+        
+
+        marker_57d25e6eb15d4ea58d46651a3cf0924d.bindPopup(popup_41e083c711804ebc850a9978af859606)
+        ;
+
+        
+    
+    
+            marker_57d25e6eb15d4ea58d46651a3cf0924d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_590aec3be90849ab879c791787267fbf = L.marker(
+                [10.86303, 38.27596],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_9cfefccac603497a85f5c1183f675aed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1cd6114c8cf4a029ed58f42539367c7 = $(`<div id="html_b1cd6114c8cf4a029ed58f42539367c7" style="width: 100.0%; height: 100.0%;">Marṭula Māryām Monastery, Gojjam Province</div>`)[0];
+            popup_9cfefccac603497a85f5c1183f675aed.setContent(html_b1cd6114c8cf4a029ed58f42539367c7);
+        
+
+        marker_590aec3be90849ab879c791787267fbf.bindPopup(popup_9cfefccac603497a85f5c1183f675aed)
+        ;
+
+        
+    
+    
+            marker_590aec3be90849ab879c791787267fbf.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81889d6b4c014e87b5976e7a5c35e9fd = L.marker(
+                [10.97215, 37.97223],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_5ed4b56d3b2c4dc3ac937b90e8307d49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8f492873c6f4d28b19b5c4c281eecd2 = $(`<div id="html_a8f492873c6f4d28b19b5c4c281eecd2" style="width: 100.0%; height: 100.0%;">Qarāneyo Madḫānē Alam Monastery, Gojjam Province (Qäranyo Mädòanä ŸAläm)(keranyo)</div>`)[0];
+            popup_5ed4b56d3b2c4dc3ac937b90e8307d49.setContent(html_a8f492873c6f4d28b19b5c4c281eecd2);
+        
+
+        marker_81889d6b4c014e87b5976e7a5c35e9fd.bindPopup(popup_5ed4b56d3b2c4dc3ac937b90e8307d49)
+        ;
+
+        
+    
+    
+            marker_81889d6b4c014e87b5976e7a5c35e9fd.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6486b38f37ae4596938a2ea23bc882a3 = L.marker(
+                [10.97215, 37.97223],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_ec99a7a785654d9badc5b8adfe15bfc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10c757150e3745f3a7c08e63c60a8a9b = $(`<div id="html_10c757150e3745f3a7c08e63c60a8a9b" style="width: 100.0%; height: 100.0%;">Qarāneyo Madḫānē Alam Monastery, Gojjam Province</div>`)[0];
+            popup_ec99a7a785654d9badc5b8adfe15bfc8.setContent(html_10c757150e3745f3a7c08e63c60a8a9b);
+        
+
+        marker_6486b38f37ae4596938a2ea23bc882a3.bindPopup(popup_ec99a7a785654d9badc5b8adfe15bfc8)
+        ;
+
+        
+    
+    
+            marker_6486b38f37ae4596938a2ea23bc882a3.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6fcb7afd6bd4331b6d0fedcaad63f34 = L.marker(
+                [10.97215, 37.97223],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_b2b0747df3494b7b8268c4932fdb093a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17e2ed2226945f082549adc5c85bc22 = $(`<div id="html_d17e2ed2226945f082549adc5c85bc22" style="width: 100.0%; height: 100.0%;">Qarāneyo Madḫānē Alam Monastery, Gojjam Province</div>`)[0];
+            popup_b2b0747df3494b7b8268c4932fdb093a.setContent(html_d17e2ed2226945f082549adc5c85bc22);
+        
+
+        marker_e6fcb7afd6bd4331b6d0fedcaad63f34.bindPopup(popup_b2b0747df3494b7b8268c4932fdb093a)
+        ;
+
+        
+    
+    
+            marker_e6fcb7afd6bd4331b6d0fedcaad63f34.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adcfd524522d43ce9fa50e67b414798f = L.marker(
+                [11.31343, 39.67698],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_a798f100b13745baa6b0ed5c1b76fb27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad55e5bd78534b6f873d0ee94ee56f58 = $(`<div id="html_ad55e5bd78534b6f873d0ee94ee56f58" style="width: 100.0%; height: 100.0%;">Qelensa Maryam (Dabra Gerit) Church, hayq</div>`)[0];
+            popup_a798f100b13745baa6b0ed5c1b76fb27.setContent(html_ad55e5bd78534b6f873d0ee94ee56f58);
+        
+
+        marker_adcfd524522d43ce9fa50e67b414798f.bindPopup(popup_a798f100b13745baa6b0ed5c1b76fb27)
+        ;
+
+        
+    
+    
+            marker_adcfd524522d43ce9fa50e67b414798f.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3882372f89884e30be5fde42456afa5d = L.marker(
+                [11.31343, 39.67698],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_dedf68e392e248e9a895f54004117456 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc32c793435c4be283ce5f6796e20d4f = $(`<div id="html_bc32c793435c4be283ce5f6796e20d4f" style="width: 100.0%; height: 100.0%;">Qelensa Maryam Church, hayq</div>`)[0];
+            popup_dedf68e392e248e9a895f54004117456.setContent(html_bc32c793435c4be283ce5f6796e20d4f);
+        
+
+        marker_3882372f89884e30be5fde42456afa5d.bindPopup(popup_dedf68e392e248e9a895f54004117456)
+        ;
+
+        
+    
+    
+            marker_3882372f89884e30be5fde42456afa5d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f8ebad4cda2420aaabf1927a762e927 = L.marker(
+                [11.31343, 39.67698],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_093bf58251dd4a5bad0bf1b64f438b85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae906c3026d64bd199715e7ac11bded1 = $(`<div id="html_ae906c3026d64bd199715e7ac11bded1" style="width: 100.0%; height: 100.0%;">Qelensa Maryam Church, hayq</div>`)[0];
+            popup_093bf58251dd4a5bad0bf1b64f438b85.setContent(html_ae906c3026d64bd199715e7ac11bded1);
+        
+
+        marker_8f8ebad4cda2420aaabf1927a762e927.bindPopup(popup_093bf58251dd4a5bad0bf1b64f438b85)
+        ;
+
+        
+    
+    
+            marker_8f8ebad4cda2420aaabf1927a762e927.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e72e7170453d4be2ae9ac94c97b10ce8 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_62612265eb874f8585d2d7cf76d57646 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f912c34ac60447ab2b141d14044ecf0 = $(`<div id="html_7f912c34ac60447ab2b141d14044ecf0" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_62612265eb874f8585d2d7cf76d57646.setContent(html_7f912c34ac60447ab2b141d14044ecf0);
+        
+
+        marker_e72e7170453d4be2ae9ac94c97b10ce8.bindPopup(popup_62612265eb874f8585d2d7cf76d57646)
+        ;
+
+        
+    
+    
+            marker_e72e7170453d4be2ae9ac94c97b10ce8.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef3af63864704a2892b71d070b0e2125 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_613be23278f44f1abcd364d832ccc9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78df9066a94c4d95bc5cc50ef9fe546e = $(`<div id="html_78df9066a94c4d95bc5cc50ef9fe546e" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_613be23278f44f1abcd364d832ccc9a1.setContent(html_78df9066a94c4d95bc5cc50ef9fe546e);
+        
+
+        marker_ef3af63864704a2892b71d070b0e2125.bindPopup(popup_613be23278f44f1abcd364d832ccc9a1)
+        ;
+
+        
+    
+    
+            marker_ef3af63864704a2892b71d070b0e2125.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6661e2fac6f94c8b90027f7a55a91238 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_41e7ecc04261498ab96b6eed0f2e6603 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee88e4636ea744a3930ca3008dd5268d = $(`<div id="html_ee88e4636ea744a3930ca3008dd5268d" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_41e7ecc04261498ab96b6eed0f2e6603.setContent(html_ee88e4636ea744a3930ca3008dd5268d);
+        
+
+        marker_6661e2fac6f94c8b90027f7a55a91238.bindPopup(popup_41e7ecc04261498ab96b6eed0f2e6603)
+        ;
+
+        
+    
+    
+            marker_6661e2fac6f94c8b90027f7a55a91238.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_922200db154847f3801c9d4fe89dcff5 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_0668de9d13cf47f99f220eb345beab01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_085148e0896b4e62a7cebca04247c59a = $(`<div id="html_085148e0896b4e62a7cebca04247c59a" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_0668de9d13cf47f99f220eb345beab01.setContent(html_085148e0896b4e62a7cebca04247c59a);
+        
+
+        marker_922200db154847f3801c9d4fe89dcff5.bindPopup(popup_0668de9d13cf47f99f220eb345beab01)
+        ;
+
+        
+    
+    
+            marker_922200db154847f3801c9d4fe89dcff5.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4891f80801054f999018b20bc2e29a16 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_6d04ba6eb6164c9dbfca550fd682079c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad10c11a74854c4ca77516bca741daf3 = $(`<div id="html_ad10c11a74854c4ca77516bca741daf3" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_6d04ba6eb6164c9dbfca550fd682079c.setContent(html_ad10c11a74854c4ca77516bca741daf3);
+        
+
+        marker_4891f80801054f999018b20bc2e29a16.bindPopup(popup_6d04ba6eb6164c9dbfca550fd682079c)
+        ;
+
+        
+    
+    
+            marker_4891f80801054f999018b20bc2e29a16.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f440feefab91485eae9616342346f9ec = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1a718e8764004c569985cc4ea296222c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deafdbfcfe6648b1aacb2e708c6642d1 = $(`<div id="html_deafdbfcfe6648b1aacb2e708c6642d1" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_1a718e8764004c569985cc4ea296222c.setContent(html_deafdbfcfe6648b1aacb2e708c6642d1);
+        
+
+        marker_f440feefab91485eae9616342346f9ec.bindPopup(popup_1a718e8764004c569985cc4ea296222c)
+        ;
+
+        
+    
+    
+            marker_f440feefab91485eae9616342346f9ec.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55573d36fe974795a03107a257da8f04 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_dd46d3ed961c474fbff5594d0d1e3def = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65e6a8c97af9457097ec961e7290c036 = $(`<div id="html_65e6a8c97af9457097ec961e7290c036" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_dd46d3ed961c474fbff5594d0d1e3def.setContent(html_65e6a8c97af9457097ec961e7290c036);
+        
+
+        marker_55573d36fe974795a03107a257da8f04.bindPopup(popup_dd46d3ed961c474fbff5594d0d1e3def)
+        ;
+
+        
+    
+    
+            marker_55573d36fe974795a03107a257da8f04.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c80de76d6a64ea5896feec266c0a180 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_351c88177c6f4a948317a5a3262ca5ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd58a17788c4d56bcdaf97368b7114c = $(`<div id="html_3fd58a17788c4d56bcdaf97368b7114c" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_351c88177c6f4a948317a5a3262ca5ea.setContent(html_3fd58a17788c4d56bcdaf97368b7114c);
+        
+
+        marker_3c80de76d6a64ea5896feec266c0a180.bindPopup(popup_351c88177c6f4a948317a5a3262ca5ea)
+        ;
+
+        
+    
+    
+            marker_3c80de76d6a64ea5896feec266c0a180.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9c3921f76f8430b8e73fc73298ce868 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1cff14a56a9144859470167b8ecbb9b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6979a798ca540a7bea216e0fb4ba906 = $(`<div id="html_e6979a798ca540a7bea216e0fb4ba906" style="width: 100.0%; height: 100.0%;">Ḥayq Esṭifanos Monastery</div>`)[0];
+            popup_1cff14a56a9144859470167b8ecbb9b9.setContent(html_e6979a798ca540a7bea216e0fb4ba906);
+        
+
+        marker_a9c3921f76f8430b8e73fc73298ce868.bindPopup(popup_1cff14a56a9144859470167b8ecbb9b9)
+        ;
+
+        
+    
+    
+            marker_a9c3921f76f8430b8e73fc73298ce868.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b35983c0abab4fbb98197c3d1a8cf647 = L.marker(
+                [11.3388, 39.69743],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_c49fe8f075414d7e910bdf729579443c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_705b87efef4c440b99f908e29e0be7c7 = $(`<div id="html_705b87efef4c440b99f908e29e0be7c7" style="width: 100.0%; height: 100.0%;">Libanos Abo Ḥayq</div>`)[0];
+            popup_c49fe8f075414d7e910bdf729579443c.setContent(html_705b87efef4c440b99f908e29e0be7c7);
+        
+
+        marker_b35983c0abab4fbb98197c3d1a8cf647.bindPopup(popup_c49fe8f075414d7e910bdf729579443c)
+        ;
+
+        
+    
+    
+            marker_b35983c0abab4fbb98197c3d1a8cf647.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2ffd00e8e8b4fabbd619374ba74b943 = L.marker(
+                [11.52036, 39.35964],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_35e81855f79b494c80b92c219fde8c27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b4d9ee7e0044ca9f0004519b4679d5 = $(`<div id="html_22b4d9ee7e0044ca9f0004519b4679d5" style="width: 100.0%; height: 100.0%;">Däbrä Tabor Church, Gondar</div>`)[0];
+            popup_35e81855f79b494c80b92c219fde8c27.setContent(html_22b4d9ee7e0044ca9f0004519b4679d5);
+        
+
+        marker_a2ffd00e8e8b4fabbd619374ba74b943.bindPopup(popup_35e81855f79b494c80b92c219fde8c27)
+        ;
+
+        
+    
+    
+            marker_a2ffd00e8e8b4fabbd619374ba74b943.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8657b5fc11a645c997106a4e1739a2bc = L.marker(
+                [11.66667, 39.75],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_053a4115ad9249189bef591a69280c8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92d613cf61b748b8ba96b652cd9b3f7f = $(`<div id="html_92d613cf61b748b8ba96b652cd9b3f7f" style="width: 100.0%; height: 100.0%;">Feto Abbo</div>`)[0];
+            popup_053a4115ad9249189bef591a69280c8a.setContent(html_92d613cf61b748b8ba96b652cd9b3f7f);
+        
+
+        marker_8657b5fc11a645c997106a4e1739a2bc.bindPopup(popup_053a4115ad9249189bef591a69280c8a)
+        ;
+
+        
+    
+    
+            marker_8657b5fc11a645c997106a4e1739a2bc.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cebf20043d9482988869d2c9fc58169 = L.marker(
+                [11.66667, 39.75],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_2f75e255329d4100b8d5512d4ef3eb26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9154d61fef7b48e787f96ba618a2d542 = $(`<div id="html_9154d61fef7b48e787f96ba618a2d542" style="width: 100.0%; height: 100.0%;">Adami Giyorgis ( Adame is 11.349389, 39.850881 in Wallo; Adame kebele is at the southern border of Were Babo wereda)</div>`)[0];
+            popup_2f75e255329d4100b8d5512d4ef3eb26.setContent(html_9154d61fef7b48e787f96ba618a2d542);
+        
+
+        marker_3cebf20043d9482988869d2c9fc58169.bindPopup(popup_2f75e255329d4100b8d5512d4ef3eb26)
+        ;
+
+        
+    
+    
+            marker_3cebf20043d9482988869d2c9fc58169.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4326b38f2a494e2e8b42aece3e9b1c9b = L.marker(
+                [11.78794, 39.59867],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_b52c9a4d9c68471ca20927efb9a4772d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e64bb5d65c443e4979d058f9c69341b = $(`<div id="html_3e64bb5d65c443e4979d058f9c69341b" style="width: 100.0%; height: 100.0%;">Waldeya Gebriel Church</div>`)[0];
+            popup_b52c9a4d9c68471ca20927efb9a4772d.setContent(html_3e64bb5d65c443e4979d058f9c69341b);
+        
+
+        marker_4326b38f2a494e2e8b42aece3e9b1c9b.bindPopup(popup_b52c9a4d9c68471ca20927efb9a4772d)
+        ;
+
+        
+    
+    
+            marker_4326b38f2a494e2e8b42aece3e9b1c9b.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a83079d8e9394aeb8e0e34c9a47bb105 = L.marker(
+                [11.83097, 39.60086],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_a3bb83b46b194ed89d96024b250c10a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e7a49894874599bc007d32f98d8e27 = $(`<div id="html_f5e7a49894874599bc007d32f98d8e27" style="width: 100.0%; height: 100.0%;">Maskwa Maryam Church</div>`)[0];
+            popup_a3bb83b46b194ed89d96024b250c10a6.setContent(html_f5e7a49894874599bc007d32f98d8e27);
+        
+
+        marker_a83079d8e9394aeb8e0e34c9a47bb105.bindPopup(popup_a3bb83b46b194ed89d96024b250c10a6)
+        ;
+
+        
+    
+    
+            marker_a83079d8e9394aeb8e0e34c9a47bb105.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d95bcf4941574ca2b9b08416c3bf0c1c = L.marker(
+                [11.99954, 39.33426],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_55d03696b97d4508b280a2ef6615c4cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1a5591e05f149f4ba95238b45328ce1 = $(`<div id="html_f1a5591e05f149f4ba95238b45328ce1" style="width: 100.0%; height: 100.0%;">Agdama Mika’el (lat long from some Mikael's near Guba lafto but not with Agdama)</div>`)[0];
+            popup_55d03696b97d4508b280a2ef6615c4cb.setContent(html_f1a5591e05f149f4ba95238b45328ce1);
+        
+
+        marker_d95bcf4941574ca2b9b08416c3bf0c1c.bindPopup(popup_55d03696b97d4508b280a2ef6615c4cb)
+        ;
+
+        
+    
+    
+            marker_d95bcf4941574ca2b9b08416c3bf0c1c.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_904924d7fc9b4ea7a789b8e398af1e64 = L.marker(
+                [12.00667, 39.55528],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_4faeee12f0854b119b3ff196bcbc9402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e744c3fc59214f30af7205ebbf1e24d9 = $(`<div id="html_e744c3fc59214f30af7205ebbf1e24d9" style="width: 100.0%; height: 100.0%;">Lach Mika'el</div>`)[0];
+            popup_4faeee12f0854b119b3ff196bcbc9402.setContent(html_e744c3fc59214f30af7205ebbf1e24d9);
+        
+
+        marker_904924d7fc9b4ea7a789b8e398af1e64.bindPopup(popup_4faeee12f0854b119b3ff196bcbc9402)
+        ;
+
+        
+    
+    
+            marker_904924d7fc9b4ea7a789b8e398af1e64.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4e3dd1c1ad04ec6a0540b521ccde4bb = L.marker(
+                [12.03133, 39.04521],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_4f1acfe7e8394ad18f6912415f97fe58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a33de7546d24ea997453909b7923eef = $(`<div id="html_1a33de7546d24ea997453909b7923eef" style="width: 100.0%; height: 100.0%;">Beta Abba Libanos Church</div>`)[0];
+            popup_4f1acfe7e8394ad18f6912415f97fe58.setContent(html_1a33de7546d24ea997453909b7923eef);
+        
+
+        marker_b4e3dd1c1ad04ec6a0540b521ccde4bb.bindPopup(popup_4f1acfe7e8394ad18f6912415f97fe58)
+        ;
+
+        
+    
+    
+            marker_b4e3dd1c1ad04ec6a0540b521ccde4bb.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a348df587b8d466f8c843e655c5b9498 = L.marker(
+                [12.03173, 39.04561],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_02f0edaa0eb145259d81e4c942d804c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a29a0b171790412da88abb01ba75d0cc = $(`<div id="html_a29a0b171790412da88abb01ba75d0cc" style="width: 100.0%; height: 100.0%;">Beta Amanuel church</div>`)[0];
+            popup_02f0edaa0eb145259d81e4c942d804c6.setContent(html_a29a0b171790412da88abb01ba75d0cc);
+        
+
+        marker_a348df587b8d466f8c843e655c5b9498.bindPopup(popup_02f0edaa0eb145259d81e4c942d804c6)
+        ;
+
+        
+    
+    
+            marker_a348df587b8d466f8c843e655c5b9498.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9183acf6719b4488add4d70c96b30011 = L.marker(
+                [12.37609, 37.36026],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_264063f465d44f10a0162add7a3e7272 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d1c2f61873241cfb28294d6ade2bae5 = $(`<div id="html_2d1c2f61873241cfb28294d6ade2bae5" style="width: 100.0%; height: 100.0%;">Čankār Takla Hāymānot (monastery) (Jankura, between Gondar and Lake Tana)</div>`)[0];
+            popup_264063f465d44f10a0162add7a3e7272.setContent(html_2d1c2f61873241cfb28294d6ade2bae5);
+        
+
+        marker_9183acf6719b4488add4d70c96b30011.bindPopup(popup_264063f465d44f10a0162add7a3e7272)
+        ;
+
+        
+    
+    
+            marker_9183acf6719b4488add4d70c96b30011.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7de60f91e97486ab2d3381ebfe725b9 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1ecc6598d88d4c54a2bbcf90a7f30a40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32a9855c34d4413b809e40f459bc57a4 = $(`<div id="html_32a9855c34d4413b809e40f459bc57a4" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_1ecc6598d88d4c54a2bbcf90a7f30a40.setContent(html_32a9855c34d4413b809e40f459bc57a4);
+        
+
+        marker_d7de60f91e97486ab2d3381ebfe725b9.bindPopup(popup_1ecc6598d88d4c54a2bbcf90a7f30a40)
+        ;
+
+        
+    
+    
+            marker_d7de60f91e97486ab2d3381ebfe725b9.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8389b5b02d4849dba54340b6348c603a = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_5b2fc83209914b6682b13052c639d17c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3f914f9c9454a4aa1aa62842436d36c = $(`<div id="html_c3f914f9c9454a4aa1aa62842436d36c" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_5b2fc83209914b6682b13052c639d17c.setContent(html_c3f914f9c9454a4aa1aa62842436d36c);
+        
+
+        marker_8389b5b02d4849dba54340b6348c603a.bindPopup(popup_5b2fc83209914b6682b13052c639d17c)
+        ;
+
+        
+    
+    
+            marker_8389b5b02d4849dba54340b6348c603a.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03f1fb14b2404efeb563fd9973830ee8 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_da9eb4e1aa3d4d48a7ba35abe3fac329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69a1937031ee4f3e875456f59e9fb0f9 = $(`<div id="html_69a1937031ee4f3e875456f59e9fb0f9" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_da9eb4e1aa3d4d48a7ba35abe3fac329.setContent(html_69a1937031ee4f3e875456f59e9fb0f9);
+        
+
+        marker_03f1fb14b2404efeb563fd9973830ee8.bindPopup(popup_da9eb4e1aa3d4d48a7ba35abe3fac329)
+        ;
+
+        
+    
+    
+            marker_03f1fb14b2404efeb563fd9973830ee8.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f06e76fa0a8d4a0199e04d2b5f31a7cd = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_db73316200684e5f844358e8a2540bb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82d9dfab3d3a4d989b105302988dda24 = $(`<div id="html_82d9dfab3d3a4d989b105302988dda24" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_db73316200684e5f844358e8a2540bb6.setContent(html_82d9dfab3d3a4d989b105302988dda24);
+        
+
+        marker_f06e76fa0a8d4a0199e04d2b5f31a7cd.bindPopup(popup_db73316200684e5f844358e8a2540bb6)
+        ;
+
+        
+    
+    
+            marker_f06e76fa0a8d4a0199e04d2b5f31a7cd.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c24c2896f62a45f29d9ec41439e0fafc = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_9113b89290b543c8a7accc76fb850480 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56187451debb4a2fb9afb7785d596474 = $(`<div id="html_56187451debb4a2fb9afb7785d596474" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_9113b89290b543c8a7accc76fb850480.setContent(html_56187451debb4a2fb9afb7785d596474);
+        
+
+        marker_c24c2896f62a45f29d9ec41439e0fafc.bindPopup(popup_9113b89290b543c8a7accc76fb850480)
+        ;
+
+        
+    
+    
+            marker_c24c2896f62a45f29d9ec41439e0fafc.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a61a7b768f04d5d82b16d289e39a383 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_65df1fa6df124f6da9d2a4b121f0511d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c14efe70223e423aae4354318962663d = $(`<div id="html_c14efe70223e423aae4354318962663d" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_65df1fa6df124f6da9d2a4b121f0511d.setContent(html_c14efe70223e423aae4354318962663d);
+        
+
+        marker_3a61a7b768f04d5d82b16d289e39a383.bindPopup(popup_65df1fa6df124f6da9d2a4b121f0511d)
+        ;
+
+        
+    
+    
+            marker_3a61a7b768f04d5d82b16d289e39a383.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7721b4b77f174dff95dba5ee2de3e9b8 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_0a999bfe7f664ceaaba8c2a4a4c89759 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2792bf9640f34b9ba4d75be0e7ae444f = $(`<div id="html_2792bf9640f34b9ba4d75be0e7ae444f" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_0a999bfe7f664ceaaba8c2a4a4c89759.setContent(html_2792bf9640f34b9ba4d75be0e7ae444f);
+        
+
+        marker_7721b4b77f174dff95dba5ee2de3e9b8.bindPopup(popup_0a999bfe7f664ceaaba8c2a4a4c89759)
+        ;
+
+        
+    
+    
+            marker_7721b4b77f174dff95dba5ee2de3e9b8.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b547c524d9f0449ca2034c0cc9193c7d = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_83f6106b7e354d168f980cdab86e271e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ebec3508df24daf8496432b0951b0b1 = $(`<div id="html_6ebec3508df24daf8496432b0951b0b1" style="width: 100.0%; height: 100.0%;">unknown</div>`)[0];
+            popup_83f6106b7e354d168f980cdab86e271e.setContent(html_6ebec3508df24daf8496432b0951b0b1);
+        
+
+        marker_b547c524d9f0449ca2034c0cc9193c7d.bindPopup(popup_83f6106b7e354d168f980cdab86e271e)
+        ;
+
+        
+    
+    
+            marker_b547c524d9f0449ca2034c0cc9193c7d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cad91a3d9274f52821f5345ff070f47 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_fe4c0a0611d145869dfd9d343f6b6be6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c31fad1f1364f04b566331492b1fd42 = $(`<div id="html_7c31fad1f1364f04b566331492b1fd42" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_fe4c0a0611d145869dfd9d343f6b6be6.setContent(html_7c31fad1f1364f04b566331492b1fd42);
+        
+
+        marker_0cad91a3d9274f52821f5345ff070f47.bindPopup(popup_fe4c0a0611d145869dfd9d343f6b6be6)
+        ;
+
+        
+    
+    
+            marker_0cad91a3d9274f52821f5345ff070f47.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec55c7b7215a4548a3fdfd22c3ed4a8f = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_5011de7d763c442d9a5a52443c818f9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46ea2a7c61a042c5af5903907d30d466 = $(`<div id="html_46ea2a7c61a042c5af5903907d30d466" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_5011de7d763c442d9a5a52443c818f9e.setContent(html_46ea2a7c61a042c5af5903907d30d466);
+        
+
+        marker_ec55c7b7215a4548a3fdfd22c3ed4a8f.bindPopup(popup_5011de7d763c442d9a5a52443c818f9e)
+        ;
+
+        
+    
+    
+            marker_ec55c7b7215a4548a3fdfd22c3ed4a8f.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4995e83a084b46c08d58ddeeb031bd8d = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_326831f6304b49b7ba3c0675ca8bbba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3815c5d2d7da49ad9f7aa6431a0b2a49 = $(`<div id="html_3815c5d2d7da49ad9f7aa6431a0b2a49" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_326831f6304b49b7ba3c0675ca8bbba2.setContent(html_3815c5d2d7da49ad9f7aa6431a0b2a49);
+        
+
+        marker_4995e83a084b46c08d58ddeeb031bd8d.bindPopup(popup_326831f6304b49b7ba3c0675ca8bbba2)
+        ;
+
+        
+    
+    
+            marker_4995e83a084b46c08d58ddeeb031bd8d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ca3861ff5294a1eb82af17844752a6c = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_1ea8750ca5a94580ab0f4b2335bc5527 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b2d388308ae4d0daa769faa5c7e3b45 = $(`<div id="html_8b2d388308ae4d0daa769faa5c7e3b45" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_1ea8750ca5a94580ab0f4b2335bc5527.setContent(html_8b2d388308ae4d0daa769faa5c7e3b45);
+        
+
+        marker_0ca3861ff5294a1eb82af17844752a6c.bindPopup(popup_1ea8750ca5a94580ab0f4b2335bc5527)
+        ;
+
+        
+    
+    
+            marker_0ca3861ff5294a1eb82af17844752a6c.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa1f225f1f84426bb17ce0b3c411d5d3 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_066efa8d11e34fb1b0f24646294bda41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_796111ee1dcd4559bd74998a30783acd = $(`<div id="html_796111ee1dcd4559bd74998a30783acd" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_066efa8d11e34fb1b0f24646294bda41.setContent(html_796111ee1dcd4559bd74998a30783acd);
+        
+
+        marker_fa1f225f1f84426bb17ce0b3c411d5d3.bindPopup(popup_066efa8d11e34fb1b0f24646294bda41)
+        ;
+
+        
+    
+    
+            marker_fa1f225f1f84426bb17ce0b3c411d5d3.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a11a8222f067451d8e2df3ff385bfe30 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_ee22a11a61884254b9b9a10d8c415ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16b5183480cf499da58a7ac4566b5cb3 = $(`<div id="html_16b5183480cf499da58a7ac4566b5cb3" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_ee22a11a61884254b9b9a10d8c415ff5.setContent(html_16b5183480cf499da58a7ac4566b5cb3);
+        
+
+        marker_a11a8222f067451d8e2df3ff385bfe30.bindPopup(popup_ee22a11a61884254b9b9a10d8c415ff5)
+        ;
+
+        
+    
+    
+            marker_a11a8222f067451d8e2df3ff385bfe30.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81eb9fb32e9f4f9d8a165be986b93c42 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_eb7b6f28d02443dbb139854302c29190 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81331151984a4a56bfcb61fbdb96b32d = $(`<div id="html_81331151984a4a56bfcb61fbdb96b32d" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_eb7b6f28d02443dbb139854302c29190.setContent(html_81331151984a4a56bfcb61fbdb96b32d);
+        
+
+        marker_81eb9fb32e9f4f9d8a165be986b93c42.bindPopup(popup_eb7b6f28d02443dbb139854302c29190)
+        ;
+
+        
+    
+    
+            marker_81eb9fb32e9f4f9d8a165be986b93c42.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb491eee434542a1b0988efee81083d0 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_ec9a80eab7c144d4913aca32849b13a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab3d33827a9f4b44ae8f88e97ef9c97b = $(`<div id="html_ab3d33827a9f4b44ae8f88e97ef9c97b" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_ec9a80eab7c144d4913aca32849b13a2.setContent(html_ab3d33827a9f4b44ae8f88e97ef9c97b);
+        
+
+        marker_bb491eee434542a1b0988efee81083d0.bindPopup(popup_ec9a80eab7c144d4913aca32849b13a2)
+        ;
+
+        
+    
+    
+            marker_bb491eee434542a1b0988efee81083d0.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa2cd094fc594030a827090a352557aa = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_a5845ab8663c490d81c2c7bbb4ed0b39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7110c03052194f969c33e4b0226db9a6 = $(`<div id="html_7110c03052194f969c33e4b0226db9a6" style="width: 100.0%; height: 100.0%;">unknown</div>`)[0];
+            popup_a5845ab8663c490d81c2c7bbb4ed0b39.setContent(html_7110c03052194f969c33e4b0226db9a6);
+        
+
+        marker_fa2cd094fc594030a827090a352557aa.bindPopup(popup_a5845ab8663c490d81c2c7bbb4ed0b39)
+        ;
+
+        
+    
+    
+            marker_fa2cd094fc594030a827090a352557aa.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7189ab55e3aa44b5ba4d58c1c6a1d482 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_e6784329d2f74b60b44da2435b2ce70c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72a674fb0e9f4bf4b7ae3b7ef1ec63a3 = $(`<div id="html_72a674fb0e9f4bf4b7ae3b7ef1ec63a3" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_e6784329d2f74b60b44da2435b2ce70c.setContent(html_72a674fb0e9f4bf4b7ae3b7ef1ec63a3);
+        
+
+        marker_7189ab55e3aa44b5ba4d58c1c6a1d482.bindPopup(popup_e6784329d2f74b60b44da2435b2ce70c)
+        ;
+
+        
+    
+    
+            marker_7189ab55e3aa44b5ba4d58c1c6a1d482.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdb838124ef841d98457eafa37effdff = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_e0d69cad95f849c391b3895d06bc64ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a1100922f34318a09582b7ed057243 = $(`<div id="html_e7a1100922f34318a09582b7ed057243" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_e0d69cad95f849c391b3895d06bc64ab.setContent(html_e7a1100922f34318a09582b7ed057243);
+        
+
+        marker_bdb838124ef841d98457eafa37effdff.bindPopup(popup_e0d69cad95f849c391b3895d06bc64ab)
+        ;
+
+        
+    
+    
+            marker_bdb838124ef841d98457eafa37effdff.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3b167f5215d4f3399c2e6acd16f008f = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_bb048a6d7c2a49baa318b60a0fbe8162 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d904795f4449492194e070f5aafdbd81 = $(`<div id="html_d904795f4449492194e070f5aafdbd81" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_bb048a6d7c2a49baa318b60a0fbe8162.setContent(html_d904795f4449492194e070f5aafdbd81);
+        
+
+        marker_f3b167f5215d4f3399c2e6acd16f008f.bindPopup(popup_bb048a6d7c2a49baa318b60a0fbe8162)
+        ;
+
+        
+    
+    
+            marker_f3b167f5215d4f3399c2e6acd16f008f.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d96a3498065482aa406b9d5f724bb4a = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d2a44dc30a9a4182b4f5db8e0b87e2e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_458ae34a92cd44eb8f399cbd7c0e9da9 = $(`<div id="html_458ae34a92cd44eb8f399cbd7c0e9da9" style="width: 100.0%; height: 100.0%;">a church in the Gondar area</div>`)[0];
+            popup_d2a44dc30a9a4182b4f5db8e0b87e2e9.setContent(html_458ae34a92cd44eb8f399cbd7c0e9da9);
+        
+
+        marker_5d96a3498065482aa406b9d5f724bb4a.bindPopup(popup_d2a44dc30a9a4182b4f5db8e0b87e2e9)
+        ;
+
+        
+    
+    
+            marker_5d96a3498065482aa406b9d5f724bb4a.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1d728622bac4cb8b8be4eaf3545a61a = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_762b33683dae46b2b0684cedf0338242 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_643bb686fd134a5ab4fb058e0f8743fe = $(`<div id="html_643bb686fd134a5ab4fb058e0f8743fe" style="width: 100.0%; height: 100.0%;">Gondar</div>`)[0];
+            popup_762b33683dae46b2b0684cedf0338242.setContent(html_643bb686fd134a5ab4fb058e0f8743fe);
+        
+
+        marker_e1d728622bac4cb8b8be4eaf3545a61a.bindPopup(popup_762b33683dae46b2b0684cedf0338242)
+        ;
+
+        
+    
+    
+            marker_e1d728622bac4cb8b8be4eaf3545a61a.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e71c447fc404dd8a1aef6b2c678202e = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_bf2f329295bd4a409359ea9138bcdf9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf05f0333118470ca4fc96dd274bfdaf = $(`<div id="html_bf05f0333118470ca4fc96dd274bfdaf" style="width: 100.0%; height: 100.0%;">Gondar</div>`)[0];
+            popup_bf2f329295bd4a409359ea9138bcdf9d.setContent(html_bf05f0333118470ca4fc96dd274bfdaf);
+        
+
+        marker_4e71c447fc404dd8a1aef6b2c678202e.bindPopup(popup_bf2f329295bd4a409359ea9138bcdf9d)
+        ;
+
+        
+    
+    
+            marker_4e71c447fc404dd8a1aef6b2c678202e.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84d2d79e37004d77bb6eacc81ae74824 = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_93b29b7790904f2483cba39439bf5e30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0e14f503ad74479802df81f2f7aed1c = $(`<div id="html_b0e14f503ad74479802df81f2f7aed1c" style="width: 100.0%; height: 100.0%;">Gondar</div>`)[0];
+            popup_93b29b7790904f2483cba39439bf5e30.setContent(html_b0e14f503ad74479802df81f2f7aed1c);
+        
+
+        marker_84d2d79e37004d77bb6eacc81ae74824.bindPopup(popup_93b29b7790904f2483cba39439bf5e30)
+        ;
+
+        
+    
+    
+            marker_84d2d79e37004d77bb6eacc81ae74824.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6789152c8dd84bf88a371bb8cc316f8e = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d575e2667b6c4e93a0bd120eb9324f84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d401fb8bf0c748f5902ce6a37953a553 = $(`<div id="html_d401fb8bf0c748f5902ce6a37953a553" style="width: 100.0%; height: 100.0%;">Gondar</div>`)[0];
+            popup_d575e2667b6c4e93a0bd120eb9324f84.setContent(html_d401fb8bf0c748f5902ce6a37953a553);
+        
+
+        marker_6789152c8dd84bf88a371bb8cc316f8e.bindPopup(popup_d575e2667b6c4e93a0bd120eb9324f84)
+        ;
+
+        
+    
+    
+            marker_6789152c8dd84bf88a371bb8cc316f8e.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7261f267667b4f3c835fa9987509079c = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_082e078e604f4edc8d0d2bb1fc526735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19fcb566568f44e1a22250665321e995 = $(`<div id="html_19fcb566568f44e1a22250665321e995" style="width: 100.0%; height: 100.0%;">Gondar</div>`)[0];
+            popup_082e078e604f4edc8d0d2bb1fc526735.setContent(html_19fcb566568f44e1a22250665321e995);
+        
+
+        marker_7261f267667b4f3c835fa9987509079c.bindPopup(popup_082e078e604f4edc8d0d2bb1fc526735)
+        ;
+
+        
+    
+    
+            marker_7261f267667b4f3c835fa9987509079c.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62a692673b044c3593821b729571e29f = L.marker(
+                [12.6086, 37.4676],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_ccb1858cf8af480f82fcbac61c61b396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e614a417a1ea4281877307c66604f1b4 = $(`<div id="html_e614a417a1ea4281877307c66604f1b4" style="width: 100.0%; height: 100.0%;">Gondar</div>`)[0];
+            popup_ccb1858cf8af480f82fcbac61c61b396.setContent(html_e614a417a1ea4281877307c66604f1b4);
+        
+
+        marker_62a692673b044c3593821b729571e29f.bindPopup(popup_ccb1858cf8af480f82fcbac61c61b396)
+        ;
+
+        
+    
+    
+            marker_62a692673b044c3593821b729571e29f.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a384552e39d4664a30405fa503e1d70 = L.marker(
+                [13.66357, 39.17335],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_31dc4f391b8e4703a07a1265ef5ec488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3e8b28aefb640d4a0cbe1be7dae1c1b = $(`<div id="html_f3e8b28aefb640d4a0cbe1be7dae1c1b" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_31dc4f391b8e4703a07a1265ef5ec488.setContent(html_f3e8b28aefb640d4a0cbe1be7dae1c1b);
+        
+
+        marker_2a384552e39d4664a30405fa503e1d70.bindPopup(popup_31dc4f391b8e4703a07a1265ef5ec488)
+        ;
+
+        
+    
+    
+            marker_2a384552e39d4664a30405fa503e1d70.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f29a43dc0064810800b1a6e6ac7eb90 = L.marker(
+                [13.9773, 39.60775],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_fe4cfa5570a94f71b6c80271e0d98289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96b06391191f4819ba52fea4e91cdfcc = $(`<div id="html_96b06391191f4819ba52fea4e91cdfcc" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_fe4cfa5570a94f71b6c80271e0d98289.setContent(html_96b06391191f4819ba52fea4e91cdfcc);
+        
+
+        marker_6f29a43dc0064810800b1a6e6ac7eb90.bindPopup(popup_fe4cfa5570a94f71b6c80271e0d98289)
+        ;
+
+        
+    
+    
+            marker_6f29a43dc0064810800b1a6e6ac7eb90.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c2ede34951141d399f5b05c80b24585 = L.marker(
+                [14.16529, 39.44767],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_dccd1ecb238a4e7ea44fba68d5c6d208 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f03ff694672a4aa7bd8e86e789fd77d4 = $(`<div id="html_f03ff694672a4aa7bd8e86e789fd77d4" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_dccd1ecb238a4e7ea44fba68d5c6d208.setContent(html_f03ff694672a4aa7bd8e86e789fd77d4);
+        
+
+        marker_5c2ede34951141d399f5b05c80b24585.bindPopup(popup_dccd1ecb238a4e7ea44fba68d5c6d208)
+        ;
+
+        
+    
+    
+            marker_5c2ede34951141d399f5b05c80b24585.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca537f69ccd24728b35679152af6bb50 = L.marker(
+                [14.30883, 39.37868],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_8f9de02c4353412bb75197a6f64f23ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa30f98b5d7d4da0896bb483748acfc7 = $(`<div id="html_fa30f98b5d7d4da0896bb483748acfc7" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_8f9de02c4353412bb75197a6f64f23ad.setContent(html_fa30f98b5d7d4da0896bb483748acfc7);
+        
+
+        marker_ca537f69ccd24728b35679152af6bb50.bindPopup(popup_8f9de02c4353412bb75197a6f64f23ad)
+        ;
+
+        
+    
+    
+            marker_ca537f69ccd24728b35679152af6bb50.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf2aed2ea4a74bd486cff8ff085a4d67 = L.marker(
+                [14.30883, 39.37868],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d480b0f1c6d44b66886f9d7ea3e8a71a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57215d9961fe4406aeb8636c327f03e4 = $(`<div id="html_57215d9961fe4406aeb8636c327f03e4" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_d480b0f1c6d44b66886f9d7ea3e8a71a.setContent(html_57215d9961fe4406aeb8636c327f03e4);
+        
+
+        marker_cf2aed2ea4a74bd486cff8ff085a4d67.bindPopup(popup_d480b0f1c6d44b66886f9d7ea3e8a71a)
+        ;
+
+        
+    
+    
+            marker_cf2aed2ea4a74bd486cff8ff085a4d67.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e43964ae192548e2a4b74fd99fcfa477 = L.marker(
+                [14.32736, 39.40431],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_e13fd0d1113e4645af3d259676faeda0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7d0772f8446408d8d6f41a4a0ab077a = $(`<div id="html_c7d0772f8446408d8d6f41a4a0ab077a" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_e13fd0d1113e4645af3d259676faeda0.setContent(html_c7d0772f8446408d8d6f41a4a0ab077a);
+        
+
+        marker_e43964ae192548e2a4b74fd99fcfa477.bindPopup(popup_e13fd0d1113e4645af3d259676faeda0)
+        ;
+
+        
+    
+    
+            marker_e43964ae192548e2a4b74fd99fcfa477.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28c1e281a6134e819f4be90b7d692c00 = L.marker(
+                [14.34529, 39.43503],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_f2e47d0be84b480fa0e859c6c6cdeee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_638a381037f640c5bf085ce18ac16422 = $(`<div id="html_638a381037f640c5bf085ce18ac16422" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_f2e47d0be84b480fa0e859c6c6cdeee2.setContent(html_638a381037f640c5bf085ce18ac16422);
+        
+
+        marker_28c1e281a6134e819f4be90b7d692c00.bindPopup(popup_f2e47d0be84b480fa0e859c6c6cdeee2)
+        ;
+
+        
+    
+    
+            marker_28c1e281a6134e819f4be90b7d692c00.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b6f42a9f6044776acdfd2f5657c9e1b = L.marker(
+                [14.37433, 39.29217],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_28a3668eb93945e4adafb806946f45d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3843374206714290bec1bc0d53e4119d = $(`<div id="html_3843374206714290bec1bc0d53e4119d" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_28a3668eb93945e4adafb806946f45d7.setContent(html_3843374206714290bec1bc0d53e4119d);
+        
+
+        marker_5b6f42a9f6044776acdfd2f5657c9e1b.bindPopup(popup_28a3668eb93945e4adafb806946f45d7)
+        ;
+
+        
+    
+    
+            marker_5b6f42a9f6044776acdfd2f5657c9e1b.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_824a4f0f613949bc839412e348398295 = L.marker(
+                [14.39483, 39.40653],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_f436bf5cd7ca44eab36eb244f2b6cbd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dbf8e6e0ba34b56b3ffadf7b9c09f8e = $(`<div id="html_0dbf8e6e0ba34b56b3ffadf7b9c09f8e" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_f436bf5cd7ca44eab36eb244f2b6cbd0.setContent(html_0dbf8e6e0ba34b56b3ffadf7b9c09f8e);
+        
+
+        marker_824a4f0f613949bc839412e348398295.bindPopup(popup_f436bf5cd7ca44eab36eb244f2b6cbd0)
+        ;
+
+        
+    
+    
+            marker_824a4f0f613949bc839412e348398295.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef2ada43c938420a8809f9529fd5e74c = L.marker(
+                [14.40967, 39.51811],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_d8fafe93d8864f33a91b0c901082d4da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_775a8bb2669b45eca28c6a75cee8e81d = $(`<div id="html_775a8bb2669b45eca28c6a75cee8e81d" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_d8fafe93d8864f33a91b0c901082d4da.setContent(html_775a8bb2669b45eca28c6a75cee8e81d);
+        
+
+        marker_ef2ada43c938420a8809f9529fd5e74c.bindPopup(popup_d8fafe93d8864f33a91b0c901082d4da)
+        ;
+
+        
+    
+    
+            marker_ef2ada43c938420a8809f9529fd5e74c.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_753003a575214cc4b914b9507ff61552 = L.marker(
+                [14.42711, 39.45108],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_2847058a5c424fec9142e075a19d4f55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45aeeccf12054c39911cbab7b3a30ce9 = $(`<div id="html_45aeeccf12054c39911cbab7b3a30ce9" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_2847058a5c424fec9142e075a19d4f55.setContent(html_45aeeccf12054c39911cbab7b3a30ce9);
+        
+
+        marker_753003a575214cc4b914b9507ff61552.bindPopup(popup_2847058a5c424fec9142e075a19d4f55)
+        ;
+
+        
+    
+    
+            marker_753003a575214cc4b914b9507ff61552.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_649cb8cf5fda40e58db69d9905f28a21 = L.marker(
+                [14.7, 39.41667],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_cfc120a5a08149ef87174e8959ff08f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_419700c6407c4990a0260e8d6e3f114c = $(`<div id="html_419700c6407c4990a0260e8d6e3f114c" style="width: 100.0%; height: 100.0%;">Sanʿāfe, Eritrea</div>`)[0];
+            popup_cfc120a5a08149ef87174e8959ff08f9.setContent(html_419700c6407c4990a0260e8d6e3f114c);
+        
+
+        marker_649cb8cf5fda40e58db69d9905f28a21.bindPopup(popup_cfc120a5a08149ef87174e8959ff08f9)
+        ;
+
+        
+    
+    
+            marker_649cb8cf5fda40e58db69d9905f28a21.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a89d9919f1448388fddb9fec214819d = L.marker(
+                [15.82958, 38.78174],
+                {}
+            ).addTo(marker_cluster_5343898477774ed285a5559d6d97decd);
+        
+    
+        var popup_6d7ea76376d74ac08b8a544daeb2ab79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_316ba1fd86084c3c9cc040f244bd147f = $(`<div id="html_316ba1fd86084c3c9cc040f244bd147f" style="width: 100.0%; height: 100.0%;">Eritrea; Garrett spent his whole time in Eritrea, arriving in Massawa, going to Asmara, then two months in Gheleb, Eritrea (Galab), then shorter times in Keren, Dabra Sina,  to SäŸazzäga in ÷Hamasen, Debresina is 15.748499, 38.700313</div>`)[0];
+            popup_6d7ea76376d74ac08b8a544daeb2ab79.setContent(html_316ba1fd86084c3c9cc040f244bd147f);
+        
+
+        marker_9a89d9919f1448388fddb9fec214819d.bindPopup(popup_6d7ea76376d74ac08b8a544daeb2ab79)
+        ;
+
+        
+    
+    
+            marker_9a89d9919f1448388fddb9fec214819d.bindTooltip(
+                `<div>
+                     <strong>Click for more information..</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
